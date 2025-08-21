@@ -58,7 +58,8 @@ Nora A. Martin†¹, Camilo Rodríguez†¹, Aurora Alvarez-Buylla¹, Katherine 
 library(grid)
 library(png)
 
-grid.raster(readPNG('/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Graphical_abstract.png')) 
+grid.raster(readPNG('Graphical_abstract.png')) 
+
 ```
 
 # Abstract
@@ -90,7 +91,7 @@ Here, we tested whether dendrobatid poison frogs that acquire chemical defenses 
 library(grid)
 library(png)
 
-grid.raster(readPNG('/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Reviews/Fig1_neu.png')) 
+grid.raster(readPNG('Fig1_neu.png')) 
 ```
 
 [Figure 1.](https://drive.google.com/open?id=1oz7vn6lXDQIToIUbWO45K2Yb2mEjzmmm&usp=drive_fs){.external target="_blank"}
@@ -225,43 +226,25 @@ All data sets used for this analyses can be accessed in: <https://drive.google.c
 #| code-summary: "data"
 #| cache: false
 
-#LOBSU Mac
-feat_tab <- read.csv('/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/featureTableY_normalized.csv')
+#Alkaloid feature table
+feat_tab <- read.csv('featureTableY_normalized.csv')
 
-#LOBSU Mac 
-alkadiver <- read.csv(
-  "/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/alkadiver.csv")
+#Alkaloid diversity 
+alkadiver <- read.csv("alkadiver.csv") #has compositional differences in skin alkaloid profiles between *O. sylvatica* populations and *H.infragutatus*, and altitude for every locality.
 
-#My Mac 
-#alkadiver <- read.csv(
-#  '/Users/camilorodriguezlopez/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/alkadiver.csv') # has compositional differences in skin alkaloid profiles between *O. sylvatica* populations and *H.infragutatus*, and altitude for every locality.
+#Abundance of ant genera
+L_antdiver <- read.csv("L_antdiver.csv")#has the abundance of all ant genera collected from the leaf litter and from frogs' stomach contents in every locality.
 
-#LOBSU Mac 
-L_antdiver <- read.csv("/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/L_antdiver.csv")
-
-#My Mac 
-#L_antdiver <- read.csv('/Users/camilorodriguezlopez/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/L_antdiver.csv')#has the abundance of all ant genera collected from the leaf litter and from frogs' stomach contents in every locality.
-
-#LOBSU Mac 
-diet <- read.csv(
-  "/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/diet.csv")
-
-#My Mac 
-#diet <- read.csv(
-#  '/Users/camilorodriguezlopez/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/diet.csv')#has the type and number of prey items found in the stomach contents of frog individuals from all populations.
-
-#LOBSU Mac 
-ant_traits <- read.csv("/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/ant_traits.csv")
-
-#My Mac 
-#ant_traits <- read.csv('/Users/camilorodriguezlopez/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/ant_traits.csv')#has 17 morphological traits of all ant genera collected from the leaf litter in every locality.
+#Diet
+diet <- read.csv("diet.csv")#has the type and number of prey items found in the stomach contents of frog individuals from all populations.
 
 
-#LOBSU Mac
-ant_all <- read.csv("/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/ant_all.csv")
+#ant traits 
+ant_traits <- read.csv("ant_traits.csv")#has 17 morphological traits of all ant genera collected from the leaf litter in every locality.
 
-#My Mac
-#ant_all <- read.csv('/Users/camilorodriguezlopez/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/ant_all.csv')# has abundance of all ant species captured in pitfall and Winkler traps for every place.
+
+#Abundance all ants
+ant_all <- read.csv("ant_all.csv") # has abundance of all ant species captured in pitfall and Winkler traps for every place.
 ```
 
 ### Alkaloid comparisons
@@ -309,7 +292,7 @@ ord2<-metaMDS((alkadiver %>%
 #temp <- stack('/Users/camilorodriguezlopez/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/wc2.1_30s_tavg_05.tif')  # layer for May
 
 #LOBSU_Mac
-prec <- stack('/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/wc2.1_30s_prec_05.tif')  # layer for May
+prec <- stack('wc2.1_30s_prec_05.tif')  # layer for May
 temp <- stack('/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/wc2.1_30s_tavg_05.tif')  # layer for May
 
 # Coordinates for every locality
