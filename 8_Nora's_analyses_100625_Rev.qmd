@@ -292,8 +292,8 @@ ord2<-metaMDS((alkadiver %>%
 #temp <- stack('/Users/camilorodriguezlopez/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/wc2.1_30s_tavg_05.tif')  # layer for May
 
 #LOBSU_Mac
-prec <- stack('wc2.1_30s_prec_05.tif')  # layer for May
-temp <- stack('/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Code&Data/wc2.1_30s_tavg_05.tif')  # layer for May
+prec <- raster::stack('wc2.1_30s_prec_05.tif')  # layer for May
+temp <- raster::stack('wc2.1_30s_tavg_05.tif')  # layer for May
 
 # Coordinates for every locality
 coords <- alkadiver %>% 
