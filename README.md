@@ -2537,8 +2537,6 @@ Supervision: LAO. Project administration: LAO. Funding acquisition: LAO.
 
 # References
 
-# References
-
 <div id="refs" class="references csl-bib-body hanging-indent"
 entry-spacing="0">
 
