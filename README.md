@@ -1,6 +1,23 @@
-# Poison frog chemical defenses are influenced by environmental availability and dietary selectivity for ants
+# Poison frog chemical defenses are influenced by environmental
+availability and dietary selectivity for ants
 
 
+<style>
+table caption {
+    text-align: left !important;
+}
+</style>
+
+<style>
+p {
+  text-indent: 1.5em;
+}
+&#10;.authors-section p {
+  text-indent: 0; /* Remove indentation for paragraphs inside authors-section */
+}
+</style>
+
+<div class="authors-section">
 
 Nora A. Martin†¹, Camilo Rodríguez†¹, Aurora Alvarez-Buylla¹, Katherine
 Fiocca¹, Colin R. Morrison², Adolfo Chamba-Carrillo³, Ana B.
@@ -64,75 +81,90 @@ abstract](8_Nora-s_analyses_100625_Rev_files/figure-commonmark/unnamed-chunk-1-1
 # Introduction
 
 Many organisms use chemical defenses to protect themselves from
-predators or pathogens \[@mebs2002\]. These defenses often involve small
-molecule alkaloids synthesized by plants or microbes, and some taxa can
-acquire them through dietary sequestration \[@roberts_alkaloids_1998;
-@agrawal_toxic_2012; @santos2016\]. Phytophagous insects represent the
-most well-studied taxa, including some species that specialize in
-particular plant species and accumulate specific secondary metabolites
-for chemical communication or defense \[@roberts_alkaloids_1998;
-@walsh2017; @beran2022\]. Although our understanding of chemical defense
-in vertebrates is more sparse than invertebrates, poison frogs are a
-well known example of chemical defenses acquired through an
-arthropod-based diet \[@savitzky2012\]. A key component of poison frog
-diets includes alkaloid-rich arthropods, and these frogs have evolved
-the physiological mechanisms to tolerate and integrate the toxin in
-their tissues to deter predators \[@alvarez-buylla2023\]. Yet, it
-remains unclear whether the ecological principles underlying arthropod
-diet specialization on toxic plants also apply to vertebrates that
-sequester their chemical defenses from arthropods.
+predators or pathogens ([Mebs 2002](#ref-mebs2002)). These defenses
+often involve small molecule alkaloids synthesized by plants or
+microbes, and some taxa can acquire them through dietary sequestration
+([Roberts and Wink 1998](#ref-roberts_alkaloids_1998); [Agrawal et al.
+2012](#ref-agrawal_toxic_2012); [Juan C. Santos, Tarvin, and O’Connell
+2016](#ref-santos2016)). Phytophagous insects represent the most
+well-studied taxa, including some species that specialize in particular
+plant species and accumulate specific secondary metabolites for chemical
+communication or defense ([Roberts and Wink
+1998](#ref-roberts_alkaloids_1998); [Walsh and Tang
+2017](#ref-walsh2017); [Beran and Petschenka 2022](#ref-beran2022)).
+Although our understanding of chemical defense in vertebrates is more
+sparse than invertebrates, poison frogs are a well known example of
+chemical defenses acquired through an arthropod-based diet ([Savitzky et
+al. 2012](#ref-savitzky2012)). A key component of poison frog diets
+includes alkaloid-rich arthropods, and these frogs have evolved the
+physiological mechanisms to tolerate and integrate the toxin in their
+tissues to deter predators ([Alvarez-Buylla et al.
+2023](#ref-alvarez-buylla2023)). Yet, it remains unclear whether the
+ecological principles underlying arthropod diet specialization on toxic
+plants also apply to vertebrates that sequester their chemical defenses
+from arthropods.
 
 The chemical repertoire of alkaloid-defended species varies within and
 between populations. For example, the composition and concentration of
 piperidine alkaloids in the Norwegian spruce (*Picea abies*) differ by
-location \[@virjamo2016\], while in fire ants (*Solenopsis spp.*) vary
-within species \[@deslippe2000\]. In species with acquired chemical
-defenses, variation in alkaloid profiles is generally attributed to
+location ([Virjamo and Julkunen-Tiitto 2016](#ref-virjamo2016)), while
+in fire ants (*Solenopsis spp.*) vary within species ([Deslippe and Guo
+2000](#ref-deslippe2000)). In species with acquired chemical defenses,
+variation in alkaloid profiles is generally attributed to
 spatio-temporal shifts in the availability of alkaloid-containing food,
 often resulting from environmental variation in temperature, rainfall,
 and other climatic factors. For instance, in Argentine
-*Melanophryniscus* toads \[@daly2007\], Malagasy *Mantella laevigata*
-frogs \[@moskowitz2018\], and various species of Neotropical poison
-frogs (Family Dendrobatidae) \[@saporito_geographic_2006;
-@saporito_spatial_2007; @moskowitz_land_2020; @prates2019\], differences
-in the composition of skin alkaloids across localities and seasons
-correspond with differences in stomach contents and leaf litter
+*Melanophryniscus* toads ([J. W. Daly et al. 2007](#ref-daly2007)),
+Malagasy *Mantella laevigata* frogs ([Moskowitz et al.
+2018](#ref-moskowitz2018)), and various species of Neotropical poison
+frogs (Family Dendrobatidae) ([Saporito et al.
+2006](#ref-saporito_geographic_2006); [Saporito, Donnelly, Jain, et al.
+2007](#ref-saporito_spatial_2007); [Moskowitz et al.
+2020](#ref-moskowitz_land_2020); [Prates et al. 2019](#ref-prates2019)),
+differences in the composition of skin alkaloids across localities and
+seasons correspond with differences in stomach contents and leaf litter
 arthropod communities. Dietary selectivity may also influence the
 alkaloid profile of chemically defended species by favoring the
 consumption of food items that contain specific defensive alkaloids.
 Yet, organisms must make dietary decisions based on handling time and
 nutritional value, in addition to food availability and maintenance of
 chemical defenses. For instance, *Chiasmocleis leucosticta* frogs
-preferred smaller ants over larger, more aggressive genera
-\[@meurer2021\], while lab-reared non-toxic *Dendrobates tinctorius*
-preferred protein-rich larvae over other prey types including ants
-\[@moskowitz2022\]. As these studies suggest, variation in the
-environment, the availability of alkaloid-containing prey, prey
-phenotype and foraging behavior are likely important factors in
-diet-acquired defense evolution. However, there is limited understanding
-of how these factors interact to influence species’ food choices and
-their ability to sequester chemical defenses from specific dietary
-sources.
+preferred smaller ants over larger, more aggressive genera ([Meurer et
+al. 2021](#ref-meurer2021)), while lab-reared non-toxic *Dendrobates
+tinctorius* preferred protein-rich larvae over other prey types
+including ants ([Moskowitz et al. 2022](#ref-moskowitz2022)). As these
+studies suggest, variation in the environment, the availability of
+alkaloid-containing prey, prey phenotype and foraging behavior are
+likely important factors in diet-acquired defense evolution. However,
+there is limited understanding of how these factors interact to
+influence species’ food choices and their ability to sequester chemical
+defenses from specific dietary sources.
 
 Neotropical poison frogs acquire alkaloids from alkaloid-containing
-arthropods rather than synthesizing them de novo \[@daly1994\]. Chemical
-defenses in dendrobatids have evolved independently at least four times
-in parallel with dietary specialization on ants and mites \[@santos2003;
-@darst2005\]. However, recent evidence suggests that diet specialization
-alone does not explain the defended phenotype, as ‘undefended’ species
-often consume alkaloid-containing arthropods and have low but detectable
-alkaloid levels \[@sanches_what_2023; @tarvin_passive_2024\]. Yet, it is
-unclear if selectivity for specific alkaloid-containing prey plays a
-role in the ability of poison frogs to dietarily acquire their chemical
-defenses, as most studies focus on diet without assessing environmental
-availability of arthropod prey \[@mcelroy_ant_2019\]. This is especially
-important as temporal and geographic variations in abiotic factors such
-as temperature, altitude, and precipitation affect the composition and
-richness of leaf litter arthropod communities \[@brühl1999; @silva2014;
-@gibb2015; @tiede2017; @hoenle2022; @basset2023\]. Thus, we currently
-lack a framework for understanding the evolution of diet-acquired
-defenses in poison frogs, as the role of prey availability in diet
-specialization has not been studied in depth.
+arthropods rather than synthesizing them de novo ([John W. Daly et al.
+1994](#ref-daly1994)). Chemical defenses in dendrobatids have evolved
+independently at least four times in parallel with dietary
+specialization on ants and mites ([Juan Carlos Santos, Coloma, and
+Cannatella 2003](#ref-santos2003); [Darst et al. 2005](#ref-darst2005)).
+However, recent evidence suggests that diet specialization alone does
+not explain the defended phenotype, as ‘undefended’ species often
+consume alkaloid-containing arthropods and have low but detectable
+alkaloid levels ([Sanches et al. 2023](#ref-sanches_what_2023); [Tarvin
+et al. 2024](#ref-tarvin_passive_2024)). Yet, it is unclear if
+selectivity for specific alkaloid-containing prey plays a role in the
+ability of poison frogs to dietarily acquire their chemical defenses, as
+most studies focus on diet without assessing environmental availability
+of arthropod prey ([McElroy and Donoso 2019](#ref-mcelroy_ant_2019)).
+This is especially important as temporal and geographic variations in
+abiotic factors such as temperature, altitude, and precipitation affect
+the composition and richness of leaf litter arthropod communities
+([Brühl, Mohamed, and Linsenmair 1999](#ref-brühl1999); [Silva and
+Brandão 2014](#ref-silva2014); [Gibb et al. 2015](#ref-gibb2015); [Tiede
+et al. 2017](#ref-tiede2017); [Hoenle et al. 2022](#ref-hoenle2022);
+[Basset et al. 2023](#ref-basset2023)). Thus, we currently lack a
+framework for understanding the evolution of diet-acquired defenses in
+poison frogs, as the role of prey availability in diet specialization
+has not been studied in depth.
 
 Here, we tested whether dendrobatid poison frogs that acquire chemical
 defenses from their diet exhibit dietary prey selectivity for
@@ -194,9 +226,10 @@ suffers from illegal poaching for the pet trade, coordinates for
 collection can be obtained from the corresponding authors. Chimbo rocket
 frogs (*Hyloxalus infraguttatus*) were collected during daylight from La
 Maná (N=9). While behavioral observations were not performed, frogs were
-collected during active foraging hours (06:00 - 19:00)
-\[@funkhouser1956; @amphibia2025\]. Frogs were anesthetized 3 – 6 hours
-after collection with 20% benzocaine gel applied to the ventral skin and
+collected during active foraging hours (06:00 - 19:00) ([Funkhouser
+1956](#ref-funkhouser1956); [“AmphibiaWeb Database Search”
+2025](#ref-amphibia2025)). Frogs were anesthetized 3 – 6 hours after
+collection with 20% benzocaine gel applied to the ventral skin and
 euthanized. For each individual, the dorsal skin was dissected and
 stored in methanol in glass vials. The stomach contents were stored in
 100% ethanol in 1.5 ml plastic tubes. Remaining frog tissues were either
@@ -225,7 +258,8 @@ the remaining solution was stored at -80ºC.
 
 Alkaloid detection was performed using gas chromatography-mass
 spectrometry (GC-MS) following the protocol described elsewhere
-\[@saporito2010; @alvarez-buylla2023\], and using a Shimadzu GCMS-QP2020
+([Saporito et al. 2010](#ref-saporito2010); [Alvarez-Buylla et al.
+2023](#ref-alvarez-buylla2023)), and using a Shimadzu GCMS-QP2020
 instrument with a Shimadzu 30m x 0.25 mmID SH-Rxi-5Sil MS column. In
 brief, the separation of alkaloids was achieved with helium as the
 carrier gas (flow rate: 1 mL/min) using a temperature program increasing
@@ -236,22 +270,23 @@ part of the method. Compounds were analyzed with electron impact-mass
 spectrometry (EI-MS). The GC-MS data files were exported as .CDF files,
 and the Global Natural Products Social Molecular Networking (GNPS)
 software was used to perform the deconvolution and library searching
-against the AMDIS (NIST) database to identify all compounds \[@wang2016;
-@aksenov2021\]. For deconvolution (identification of peaks and abundance
-estimates), the default parameters were used. Through the deconvolution
-process, molecular features were reported as rows/observations, while
-m/z intensities were reported as columns/variables. Automatic library
-search was obtained from reference libraries of natural products (NIST,
-Wiley, University of CORSICA, GNPS), and our resulting dataset was
-filtered to keep only the nicotine standard and alkaloids previously
-found in poison frogs or compounds with the same base ring structure and
-R group positions as those classes defined in the Daly poison frog
-alkaloid database \[@daly2005\]. Once the feature table from the GNPS
-deconvolution was filtered to include only poison frog alkaloids and
-nicotine, the abundance values (ion counts) were normalized by dividing
-by the nicotine standard and skin weight. The resulting filtered and
-normalized feature table was used for all further analyses and
-visualizations.
+against the AMDIS (NIST) database to identify all compounds ([Wang et
+al. 2016](#ref-wang2016); [Aksenov et al. 2021](#ref-aksenov2021)). For
+deconvolution (identification of peaks and abundance estimates), the
+default parameters were used. Through the deconvolution process,
+molecular features were reported as rows/observations, while m/z
+intensities were reported as columns/variables. Automatic library search
+was obtained from reference libraries of natural products (NIST, Wiley,
+University of CORSICA, GNPS), and our resulting dataset was filtered to
+keep only the nicotine standard and alkaloids previously found in poison
+frogs or compounds with the same base ring structure and R group
+positions as those classes defined in the Daly poison frog alkaloid
+database ([John W. Daly, Spande, and Garraffo 2005](#ref-daly2005)).
+Once the feature table from the GNPS deconvolution was filtered to
+include only poison frog alkaloids and nicotine, the abundance values
+(ion counts) were normalized by dividing by the nicotine standard and
+skin weight. The resulting filtered and normalized feature table was
+used for all further analyses and visualizations.
 
 ## Frog stomach contents identification
 
@@ -267,8 +302,9 @@ prey remained whole, with the exception of ants, whose heads frequently
 detached from their bodies upon ingestion. To prevent overcounting, only
 whole ant specimens, partial ant specimens with heads, or individual ant
 heads were counted. Ant specimens were identified to genus using a
-reference collection of Ecuadorian ants \[@donoso2009; @salazar2015;
-@donoso2017\].
+reference collection of Ecuadorian ants ([Donoso and Ramón
+2009](#ref-donoso2009); [Salazar et al. 2015](#ref-salazar2015); [Donoso
+2017](#ref-donoso2017)).
 
 ## Leaf litter communities and ant morphology
 
@@ -286,7 +322,8 @@ characterized by 17 traits related to size, texture, spine count, and
 coloration for leaf litter ant genera that were also found in frog
 stomach contents. Morphological traits were measured at the species
 level using data from the Global Ants Database, which provides
-standardized trait information across ant species \[@parr2017\].
+standardized trait information across ant species ([Parr et al.
+2017](#ref-parr2017)).
 
 ## Data Analysis
 
@@ -526,14 +563,14 @@ from 0 (indicating low variability and generalist behavior) to 1
 (indicating high variability and specialist behavior). Additionally, we
 used generalized linear mixed models (GLMM) to test for compositional
 differences of frog diet categories using the function **glmmTMB()**
-within the package ‘*glmmTMB*’ \[@glmmTMB\]. We used a negative binomial
-distribution appropriate for count data with overdispersion. We tested
-for diet differences by including species/population, prey type, and
-their interaction as main effects. Frog individual tags were included as
-a random variable to account for repeated sampling of prey categories
-within individuals. We computed estimated marginal means to test for
-pairwise comparisons between populations using the ‘emmeans’ package
-\[@emmeans\].
+within the package ‘*glmmTMB*’ ([Brooks et al. 2017](#ref-glmmTMB)). We
+used a negative binomial distribution appropriate for count data with
+overdispersion. We tested for diet differences by including
+species/population, prey type, and their interaction as main effects.
+Frog individual tags were included as a random variable to account for
+repeated sampling of prey categories within individuals. We computed
+estimated marginal means to test for pairwise comparisons between
+populations using the ‘emmeans’ package ([Lenth 2025](#ref-emmeans)).
 
 ``` r
 # to calculate the mean abundance of consumed prey for every frog population
@@ -589,15 +626,16 @@ emm1$asymp.UCL[emm1$asymp.UCL > 10] <-  0
 
 To infer potential dietary origins of frogs’ skin alkaloids, we
 cross-referenced the structural classes of alkaloids with the determined
-arthropod source reported by \[@santos2016\], which assigns compounds as
-derived from ants, mites, or both. We tested whether the proportion of
-ant-based alkaloids is greater than the proportion of mite-based
-alkaloids across frog populations using an anova followed by a Tukey
-post-hoc test for multiple comparisons. We visualized the proportion of
-ant- and mite-derived alkaloids using a chord diagram. Additionally, we
-tested whether total alkaloid abundance, as well as abundance within
-structural families, correlated with the number of ants and mites
-consumed across populations.
+arthropod source reported by ([Juan C. Santos, Tarvin, and O’Connell
+2016](#ref-santos2016)), which assigns compounds as derived from ants,
+mites, or both. We tested whether the proportion of ant-based alkaloids
+is greater than the proportion of mite-based alkaloids across frog
+populations using an anova followed by a Tukey post-hoc test for
+multiple comparisons. We visualized the proportion of ant- and
+mite-derived alkaloids using a chord diagram. Additionally, we tested
+whether total alkaloid abundance, as well as abundance within structural
+families, correlated with the number of ants and mites consumed across
+populations.
 
 ``` r
 ## Test if the proportion of ant-based alkaloids is greater than the proportion of mite-based alkaloids across populations
@@ -672,27 +710,28 @@ We looked at compositional differences in skin alkaloid profiles of *O.
 sylvatica* populations and *H. infraguttatus*, and their surrounding
 leaf litter ant communities in two separate non-metric multidimensional
 scaling (NMDS), using the function **metaMDS()** within the package
-‘*vegan*’ \[@vegan\]. Statistical differences between and within
-populations were assessed using a permutational multivariate analysis of
-variance (PERMANOVA) on Bray-Curtis dissimilarities. P-values for
-pairwise comparisons were adjusted using the function
-**pairwise.adonis()**. Additionally, we used the **envfit()** function
-to understand the influence of altitude, ambient temperature and
-precipitation on both alkaloid composition and leaf litter ant
-communities. These environmental variables were selected to capture
-spatial and temporal variation in ecological conditions that could
-influence ant availability and frogs’ foraging behavior. Ambient
+‘*vegan*’ ([Oksanen et al. 2024](#ref-vegan)). Statistical differences
+between and within populations were assessed using a permutational
+multivariate analysis of variance (PERMANOVA) on Bray-Curtis
+dissimilarities. P-values for pairwise comparisons were adjusted using
+the function **pairwise.adonis()**. Additionally, we used the
+**envfit()** function to understand the influence of altitude, ambient
+temperature and precipitation on both alkaloid composition and leaf
+litter ant communities. These environmental variables were selected to
+capture spatial and temporal variation in ecological conditions that
+could influence ant availability and frogs’ foraging behavior. Ambient
 temperature and precipitation data was extracted from WorldClim 2.1, at
 a spatial resolution of 30 arc-seconds (~1 km²) for each study site
-\[@fick2017\]. Similarly, we used envfit() to explore the contribution
-of specific alkaloid classes and ant genus to the ordination spaces. We
-used Procrustes analysis to test similarities between the NMDS
-ordinations of skin alkaloids and ant community composition across
-sites. The Procrustes correlation was calculated using the
-**procrustes()** function from the ‘*vegan*’ package, which aligns the
-two ordinations by scaling, rotating, and translating one configuration
-to best match the other. Statistical significance of the correlation was
-evaluated with 999 permutations using the **protest()** function.
+([Fick and Hijmans 2017](#ref-fick2017)). Similarly, we used envfit() to
+explore the contribution of specific alkaloid classes and ant genus to
+the ordination spaces. We used Procrustes analysis to test similarities
+between the NMDS ordinations of skin alkaloids and ant community
+composition across sites. The Procrustes correlation was calculated
+using the **procrustes()** function from the ‘*vegan*’ package, which
+aligns the two ordinations by scaling, rotating, and translating one
+configuration to best match the other. Statistical significance of the
+correlation was evaluated with 999 permutations using the **protest()**
+function.
 
 ``` r
 ### Winkler ###
@@ -781,21 +820,22 @@ pair.per.ants <-pairwise.adonis((ant_co %>% select(-SITE,-altitude, -latitude, -
 To test for within and between species differences in ant abundance
 between leaf litter and stomach contents, we employed a negative
 binomial generalized linear model using the **glm.nb()** function from
-the ‘*MASS*’ package \[@MASS\]. The model used total ant abundance per
-sample as the response variable, with group (stomach vs. leaf) and
-population as predictors. Pairwise comparisons were conducted using
-estimated marginal means. To examine if frogs show selectivity for
-consuming specific ant genera, we calculated a linear selectivity index
-by subtracting the relative abundance of ants found on the leaf litter
-from those found in frog stomach contents \[@strauss1979\]. The
-interpretation of these selectivity values was guided by the methodology
-in \[@mcelroy_ant_2019\], which involves generating a null distribution
-of selectivity values via simulation for each ant species. By comparing
-the observed selectivity values to this null distribution, we classified
-the ants as ‘selected’ if the values were above, ‘neutral’ if they were
-within, and ‘avoided’ if they were below the null distribution, thereby
-delivering a statistically robust assessment of the frogs’ selective
-foraging behaviors.
+the ‘*MASS*’ package ([Venables and Ripley 2002](#ref-MASS)). The model
+used total ant abundance per sample as the response variable, with group
+(stomach vs. leaf) and population as predictors. Pairwise comparisons
+were conducted using estimated marginal means. To examine if frogs show
+selectivity for consuming specific ant genera, we calculated a linear
+selectivity index by subtracting the relative abundance of ants found on
+the leaf litter from those found in frog stomach contents ([Strauss
+1979](#ref-strauss1979)). The interpretation of these selectivity values
+was guided by the methodology in ([McElroy and Donoso
+2019](#ref-mcelroy_ant_2019)), which involves generating a null
+distribution of selectivity values via simulation for each ant species.
+By comparing the observed selectivity values to this null distribution,
+we classified the ants as ‘selected’ if the values were above, ‘neutral’
+if they were within, and ‘avoided’ if they were below the null
+distribution, thereby delivering a statistically robust assessment of
+the frogs’ selective foraging behaviors.
 
 ``` r
 # To calculate the total ant abundance per sample only in Winkler sacs
@@ -930,11 +970,11 @@ Principal Component Analysis (PCA). The PCA aimed at reducing the
 dimensionality of 17 morphological and life history traits across 17 ant
 genera found both in the leaf litter and in *O. sylvatica* stomachs. To
 build the PCA, we used the function **dudi.pca()** from the ‘*ade4*’
-package \[@ade4\]. Scores of components with eigenvalues higher than 1
-were selected and used as response variables in a pairwise Wilcoxon test
-to determine differences between selectivity categories for ants in all
-diablito populations. P-values were adjusted for multiple testing using
-the False Discovery Rate control (FDR).
+package ([Dray and Dufour 2007](#ref-ade4)). Scores of components with
+eigenvalues higher than 1 were selected and used as response variables
+in a pairwise Wilcoxon test to determine differences between selectivity
+categories for ants in all diablito populations. P-values were adjusted
+for multiple testing using the False Discovery Rate control (FDR).
 
 ``` r
 # Perform Principal Components Analysis for ant traits 
@@ -1940,11 +1980,11 @@ in leaf litter ant composition between study sites
 
 | Contrasts               |  df |        F |        R2 | p.adjusted |
 |:------------------------|----:|---------:|----------:|-----------:|
-| La Maná vs. C. colón    |   1 | 2.987839 | 0.0830236 |     0.0160 |
-| La Maná vs. S. Domingo  |   1 | 5.695216 | 0.1595512 |     0.0024 |
-| La Maná vs. P. Quito    |   1 | 4.699226 | 0.1637405 |     0.0020 |
+| La Maná vs. C. colón    |   1 | 2.987839 | 0.0830236 |     0.0120 |
+| La Maná vs. S. Domingo  |   1 | 5.695216 | 0.1595512 |     0.0020 |
+| La Maná vs. P. Quito    |   1 | 4.699226 | 0.1637405 |     0.0030 |
 | C. colón vs. S. Domingo |   1 | 6.891107 | 0.1645005 |     0.0020 |
-| C. Colón vs. P. Quito   |   1 | 4.059141 | 0.1227842 |     0.0024 |
+| C. Colón vs. P. Quito   |   1 | 4.059141 | 0.1227842 |     0.0036 |
 | S. Domingo vs. P. Quito |   1 | 5.911084 | 0.1852361 |     0.0020 |
 
 </div>
@@ -2229,10 +2269,10 @@ T7
 
 <div class="cell-output-display">
 
-|         |  selected |   neutral |  selected |   neutral |  selected |   neutral |
-|:--------|----------:|----------:|----------:|----------:|----------:|----------:|
-| neutral | 0.0031785 |        \- | 0.5747153 |        \- | 0.0805582 |        \- |
-| avoid   | 0.0770631 | 0.4509119 | 0.2624423 | 0.0913792 | 0.7861707 | 0.0897485 |
+|         |  selected |   neutral |  selected |   neutral |  selected |  neutral |
+|:--------|----------:|----------:|----------:|----------:|----------:|---------:|
+| neutral | 0.0252217 |        \- | 0.9905289 |        \- | 0.2814407 |       \- |
+| avoid   | 0.2460269 | 0.2460269 | 0.1281269 | 0.1281269 | 0.5484877 | 0.247312 |
 
 </div>
 
@@ -2250,28 +2290,34 @@ class="external" target="_blank">Table 7</a>
 We found that *O. sylvatica* alkaloid profiles varied between
 populations, corresponding with changes in the availability of leaf
 litter ants along a geographical gradient of temperature, precipitation,
-and altitude. Our results align with previous studies \[@myers1976;
-@saporito_geographic_2006; @stuckert2014; @mcgugan2016; @prates2019;
-@moskowitz_land_2020\], and provide further evidence of the importance
-of environmental availability of alkaloid containing prey in shaping the
-chemical repertoire in poison frogs. Overall, diablito populations with
-higher alkaloid loads were found at cooler, high-elevation sites, where
-leaf litter ant community composition was more diverse, except in La
-Maná, where both frog alkaloids and leaf litter ants were low despite
-the high altitude. As altitude and temperature vary along geographical
-gradients, they can drive changes in frog alkaloid profiles indirectly
-by shaping the composition and diversity of their arthropod prey
-\[@mackay1986; @brühl1999; @silva2014; @wise2019; @moses2021\]. This is
-consistent with our previous work where we showed that alkaloid
+and altitude. Our results align with previous studies ([Myers and Daly
+1976](#ref-myers1976); [Saporito et al.
+2006](#ref-saporito_geographic_2006); [Stuckert et al.
+2014](#ref-stuckert2014); [McGugan et al. 2016](#ref-mcgugan2016);
+[Prates et al. 2019](#ref-prates2019); [Moskowitz et al.
+2020](#ref-moskowitz_land_2020)), and provide further evidence of the
+importance of environmental availability of alkaloid containing prey in
+shaping the chemical repertoire in poison frogs. Overall, diablito
+populations with higher alkaloid loads were found at cooler,
+high-elevation sites, where leaf litter ant community composition was
+more diverse, except in La Maná, where both frog alkaloids and leaf
+litter ants were low despite the high altitude. As altitude and
+temperature vary along geographical gradients, they can drive changes in
+frog alkaloid profiles indirectly by shaping the composition and
+diversity of their arthropod prey ([Mackay et al.
+1986](#ref-mackay1986); [Brühl, Mohamed, and Linsenmair
+1999](#ref-brühl1999); [Silva and Brandão 2014](#ref-silva2014); [Wise
+and Lensing 2019](#ref-wise2019); [Moses et al. 2021](#ref-moses2021)).
+This is consistent with our previous work where we showed that alkaloid
 profiles, diet, and surrounding leaf litter communities in the diablito
 population from Santo Domingo were more abundant in frogs from a cooler,
-humid forest than in a hot, dry pasture \[@moskowitz_land_2020\]. Other
-factors like chemical diversity of arthropod prey have been shown to
-influence alkaloid variability in diablito frogs \[@mcgugan2016\].
-Future work comparing environmental arthropod chemistry is necessary to
-better understand the interplay between chemical repertoire and
-environmental availability of prey in organisms with diet-acquired
-defenses.
+humid forest than in a hot, dry pasture ([Moskowitz et al.
+2020](#ref-moskowitz_land_2020)). Other factors like chemical diversity
+of arthropod prey have been shown to influence alkaloid variability in
+diablito frogs ([McGugan et al. 2016](#ref-mcgugan2016)). Future work
+comparing environmental arthropod chemistry is necessary to better
+understand the interplay between chemical repertoire and environmental
+availability of prey in organisms with diet-acquired defenses.
 
 We found that *H. infraguttatus*, which is typically considered
 chemically ‘undefended’, has lower yet detectable amounts of alkaloids
@@ -2279,23 +2325,28 @@ in the skin, compared to the sympatric chemically defended *O.
 sylvatica*. Our results align with the hypothesis that ‘undefended’
 dendrobatids can accumulate alkaloids even in small amounts, and that
 the ability to acquire alkaloids for defense may be more common across
-dendrobatids \[@tarvin_passive_2024\]. In this study histrionicotoxins
-and indolizidines made up the highest proportion of the alkaloid
-profiles in both *O. sylvatica* populations and *H. infraguttatus*,
-which correspond with what has been found in other dendrobatids,
-including *Oophaga* and *Hyloxalus* frogs \[@saporito_geographic_2006;
-@mcgugan2016; @jeckel2019; @moskowitz_land_2020; @tarvin_passive_2024\].
-Few studies have shown the variability of individual alkaloids and their
-influence on frog fitness. The potency or organismal effect of most
-poison frog alkaloids is unknown and there are debates about which
-assays are most appropriate to test potency \[@weldon_poison_2017\].
-Some poison frog alkaloids are toxic, while other alkaloids are more
-noxious \[@daly2005; @santos2016; @nayik_handbook_2022\]. Birds avoided
-eating food associated with skin secretions from one *Dendrobates
-tinctorius* population and this difference was partly explained by 15
-alkaloids, many of them indolizidines \[@lawrence_linking_2023\]. Given
-the variation in *O. sylvatica* alkaloid profiles, it is likely that
-there are differences in palatability to predators, although more
+dendrobatids ([Tarvin et al. 2024](#ref-tarvin_passive_2024)). In this
+study histrionicotoxins and indolizidines made up the highest proportion
+of the alkaloid profiles in both *O. sylvatica* populations and *H.
+infraguttatus*, which correspond with what has been found in other
+dendrobatids, including *Oophaga* and *Hyloxalus* frogs ([Saporito et
+al. 2006](#ref-saporito_geographic_2006); [McGugan et al.
+2016](#ref-mcgugan2016); [Jeckel et al. 2019](#ref-jeckel2019);
+[Moskowitz et al. 2020](#ref-moskowitz_land_2020); [Tarvin et al.
+2024](#ref-tarvin_passive_2024)). Few studies have shown the variability
+of individual alkaloids and their influence on frog fitness. The potency
+or organismal effect of most poison frog alkaloids is unknown and there
+are debates about which assays are most appropriate to test potency
+([Weldon 2017](#ref-weldon_poison_2017)). Some poison frog alkaloids are
+toxic, while other alkaloids are more noxious ([John W. Daly, Spande,
+and Garraffo 2005](#ref-daly2005); [Juan C. Santos, Tarvin, and
+O’Connell 2016](#ref-santos2016); [Nayik and Kour
+2022](#ref-nayik_handbook_2022)). Birds avoided eating food associated
+with skin secretions from one *Dendrobates tinctorius* population and
+this difference was partly explained by 15 alkaloids, many of them
+indolizidines ([Lawrence et al. 2023](#ref-lawrence_linking_2023)).
+Given the variation in *O. sylvatica* alkaloid profiles, it is likely
+that there are differences in palatability to predators, although more
 studies on alkaloid ingestion with natural predators are needed to
 understand this relationship.
 
@@ -2307,75 +2358,92 @@ and arthropods gathered in the ‘other’ category, demonstrating dietary
 differences between species with similar prey access. Additionally,
 although *O. sylvatic*a differed overall in diet and alkaloid profiles
 across populations, the majority of their stomach contents were
-constituted by ants, consistent with previous studies \[@mcgugan2016;
-@moskowitz_land_2020\]. Our results are also consistent with a broader
-dietary study of dendrobatids in which chemically defended species, such
-as *Epipedobates anthonyi*, *Dendrobates auratus*, *O. pumilio*, showed
-a greater degree of dietary specialization on ants than ‘undefended’
-species, such as *Allobates femoralis*, *Allobates zaparo*, *Hyloxalus
-infraguttatus* \[@caldwell_evolution_1996; @darst2005\]. However, some
-cryptically colored dendrobatid species eat mainly ants and some
-chemically defended species have a broader diet than expected
-\[@toft_evolution_1995; @darst2005; @tarvin_passive_2024\]. Our data is
-consistent with growing evidence that ants make up a large portion of
-the diet in many *Hyloxalus* species \[@darst2005; @tarvin_passive_2024;
-@sanchez_loja_conspicuous_2023\]. Overall, our results support the broad
-trend of high alkaloid-bearing dendrobatids being ant and mite
+constituted by ants, consistent with previous studies ([McGugan et al.
+2016](#ref-mcgugan2016); [Moskowitz et al.
+2020](#ref-moskowitz_land_2020)). Our results are also consistent with a
+broader dietary study of dendrobatids in which chemically defended
+species, such as *Epipedobates anthonyi*, *Dendrobates auratus*, *O.
+pumilio*, showed a greater degree of dietary specialization on ants than
+‘undefended’ species, such as *Allobates femoralis*, *Allobates zaparo*,
+*Hyloxalus infraguttatus* ([Caldwell
+1996](#ref-caldwell_evolution_1996); [Darst et al.
+2005](#ref-darst2005)). However, some cryptically colored dendrobatid
+species eat mainly ants and some chemically defended species have a
+broader diet than expected ([Toft 1995](#ref-toft_evolution_1995);
+[Darst et al. 2005](#ref-darst2005); [Tarvin et al.
+2024](#ref-tarvin_passive_2024)). Our data is consistent with growing
+evidence that ants make up a large portion of the diet in many
+*Hyloxalus* species ([Darst et al. 2005](#ref-darst2005); [Tarvin et al.
+2024](#ref-tarvin_passive_2024); [Sánchez Loja, Donoso, and Paez Vacas
+2023](#ref-sanchez_loja_conspicuous_2023)). Overall, our results support
+the broad trend of high alkaloid-bearing dendrobatids being ant and mite
 specialists, while providing further evidence that poison frogs with low
 alkaloid levels also consume important amounts of ants.
 
 Consuming specific arthropod prey at rates disproportionate to their
 availability can influence poison frogs’ alkaloid profile, as certain
-alkaloid classes have known origins in specific arthropod taxa
-\[@blum_alkaloidal_1980; @mcgugan2016; @santos2016;
-@saporito_oribatid_2007; @saporito_formicine_2004;
-@spande_occurrence_1999\]. In all *O. sylvatica* populations, frogs
-consistently selected *Solenopsis* ants, while *Strumigenys*,
+alkaloid classes have known origins in specific arthropod taxa ([Blum et
+al. 1980](#ref-blum_alkaloidal_1980); [McGugan et al.
+2016](#ref-mcgugan2016); [Juan C. Santos, Tarvin, and O’Connell
+2016](#ref-santos2016); [Saporito, Donnelly, Norton, et al.
+2007](#ref-saporito_oribatid_2007); [Saporito et al.
+2004](#ref-saporito_formicine_2004); [Spande et al.
+1999](#ref-spande_occurrence_1999)). In all *O. sylvatica* populations,
+frogs consistently selected *Solenopsis* ants, while *Strumigenys*,
 *Paratrachymyrmex*, *Crematogaster*, *Pheidole* and *Cyphomyrmex* ants
 were selectively consumed in specific populations, a pattern consistent
-with our previous findings \[@mcgugan2016; @moskowitz_land_2020\]. These
-ant genus are known sources of several alkaloid classes particularly
-abundant across diablito populations, including histrionicotoxins,
-decahydroquinolines, 3,5-disubstituted indolizidines, and pyrrolidines
-\[@blum_alkaloidal_1980; @jones_ant_1982; @jones_further_1999;
-@spande_occurrence_1999; @mcgugan2016; @moskowitz_land_2020\]. Dietary
-selectivity in *O. sylvatica* may suggest a preference for specific ant
-prey based on their alkaloid content, or it may simply reflect that
-these frogs inhabit microhabitats where alkaloid-rich ants are abundant,
-leading to incidental consumption without active behavioral preference,
-as previously observed in *O. pumilio* \[@donnelly_feeding_1991\].
-Further behavioral assays are required to distinguish between these
-competing hypotheses. Additionally, given the varied, but overall high
-number of mites recovered from stomach contents across localities, our
-data suggest that mites are also an important defensive alkaloid source
-for *O. sylvatica*, probably of 5,8-disubstituted & 5,6,8-trisubstituted
+with our previous findings ([McGugan et al. 2016](#ref-mcgugan2016);
+[Moskowitz et al. 2020](#ref-moskowitz_land_2020)). These ant genus are
+known sources of several alkaloid classes particularly abundant across
+diablito populations, including histrionicotoxins, decahydroquinolines,
+3,5-disubstituted indolizidines, and pyrrolidines ([Blum et al.
+1980](#ref-blum_alkaloidal_1980); [Jones, Blum, and Fales
+1982](#ref-jones_ant_1982); [Jones et al.
+1999](#ref-jones_further_1999); [Spande et al.
+1999](#ref-spande_occurrence_1999); [McGugan et al.
+2016](#ref-mcgugan2016); [Moskowitz et al.
+2020](#ref-moskowitz_land_2020)). Dietary selectivity in *O. sylvatica*
+may suggest a preference for specific ant prey based on their alkaloid
+content, or it may simply reflect that these frogs inhabit microhabitats
+where alkaloid-rich ants are abundant, leading to incidental consumption
+without active behavioral preference, as previously observed in *O.
+pumilio* ([Donnelly 1991](#ref-donnelly_feeding_1991)). Further
+behavioral assays are required to distinguish between these competing
+hypotheses. Additionally, given the varied, but overall high number of
+mites recovered from stomach contents across localities, our data
+suggest that mites are also an important defensive alkaloid source for
+*O. sylvatica*, probably of 5,8-disubstituted & 5,6,8-trisubstituted
 indolizidines and pumiliotoxins, as previously found in *O. pumilio*
-\[@saporito_geographic_2006; @saporito_oribatid_2007\]. Mite taxonomy
-and chemistry is drastically understudied compared to ants and future
-studies should also make efforts to include mites in their analyses
-\[but see @saporito_oribatid_2007; @saporito_taxonomic_2015;
-@saporito_alkaloids_2011\].
+([Saporito et al. 2006](#ref-saporito_geographic_2006); [Saporito,
+Donnelly, Norton, et al. 2007](#ref-saporito_oribatid_2007)). Mite
+taxonomy and chemistry is drastically understudied compared to ants and
+future studies should also make efforts to include mites in their
+analyses (but see [Saporito, Donnelly, Norton, et al.
+2007](#ref-saporito_oribatid_2007); [Saporito et al.
+2015](#ref-saporito_taxonomic_2015),
+[2011](#ref-saporito_alkaloids_2011)).
 
 We found that *H. infraguttatus* selected *Pheidole* ants, which were
 also selected by *O. sylvatica* from the ‘Cristobal Colón’ locality
 within this study. Previous alkaloid sampling of *O. sylvatica* and
 *Pheidole* ants found evidence of overlapping alkaloids within the same
-sampling location in both frogs and ants \[@moskowitz_land_2020\]. Our
-data suggests that selection for alkaloid-rich ants is not exclusive to
-aposematic species. Recent evidence found that *Pheidole* ants
-constituted the largest portion of the diet in the cryptic *Allobates
-femoralis* frog, although they were not actively selected
-\[@sanches_what_2023\]. It is unclear whether *H. infraguttatus* frogs
-have less alkaloids because their diet is less ant and mite rich or if
-they lack the physiological mechanisms required for alkaloid
-sequestration in higher concentrations, as has been noted recently in
-other cryptic species \[@alvarez-buylla2023\]. For example, in
+sampling location in both frogs and ants ([Moskowitz et al.
+2020](#ref-moskowitz_land_2020)). Our data suggests that selection for
+alkaloid-rich ants is not exclusive to aposematic species. Recent
+evidence found that *Pheidole* ants constituted the largest portion of
+the diet in the cryptic *Allobates femoralis* frog, although they were
+not actively selected ([Sanches et al. 2023](#ref-sanches_what_2023)).
+It is unclear whether *H. infraguttatus* frogs have less alkaloids
+because their diet is less ant and mite rich or if they lack the
+physiological mechanisms required for alkaloid sequestration in higher
+concentrations, as has been noted recently in other cryptic species
+([Alvarez-Buylla et al. 2023](#ref-alvarez-buylla2023)). For example, in
 laboratory toxin feeding trials *A. femoralis* was able to uptake
 alkaloids as effectively as *O. sylvatica*, but exhibited signs of
-physiological distress \[@caty_alkaloids_2025\]. Further captive feeding
-experiments would be helpful to fully understand the implications of
-dietary selectivity for the evolution of acquired chemical defenses
-among poison frogs.
+physiological distress ([Caty et al. 2025](#ref-caty_alkaloids_2025)).
+Further captive feeding experiments would be helpful to fully understand
+the implications of dietary selectivity for the evolution of acquired
+chemical defenses among poison frogs.
 
 Poison frogs may selectively consume certain ant genera based on their
 alkaloid content, reflecting underlying feeding preferences. However,
@@ -2384,32 +2452,33 @@ preference. For instance, *Solenopsis* and *Pheidole* ants may be
 consumed more frequently, regardless of their abundance, because they
 are smaller and require less handling effort than bigger, more
 aggressive ant genera, as observed in the chemically defended frog,
-*Chiasmocleis* *leucosticta* \[@meurer2021\]. In contrast, the
-Neotropical toad, *Rhinella alata*, selectively consumed larger, more
-conspicuous ants despite their rarity, while avoiding the more abundant
-but smaller *Solenopsis* ants \[@mcelroy_ant_2019\]. Also, as we limited
-our genus-level analysis to ants here, we cannot determine whether frogs
-select ants over other prey categories that may offer different
-metabolic benefits or higher nutritional value. For example, when prey
-availability is controlled under lab conditions, lab-raised Dendrobates
-tinctorius frogs gravitate to the most nutritious prey (larvae)​,
-regardless of size and other prey options including ants (Moskowitz et
-al., 2022). A careful comparison of frog diet with all available
-arthropods in the leaf litter through metabarcoding could be useful to
-determine whether behavioral selectivity is consistent across prey
-categories. Although we found solid evidence on the relationship between
-alkaloid defenses, frog diets and arthropod availability, it is worth
-noting that alkaloid profiles in poison frogs reflect long-term
-accumulation, whereas dietary composition and prey availability are
-measured at a single time point, potentially capturing only a subset of
-the frogs’ long-term foraging patterns. Finally, we collected leaf
-litter samples with Winkler sacs, which often capture abundant small,
-specialist myrmicines compared to pitfall traps, which are better in
-capturing bigger scavengers like *Anochetus* or *Hypoponera* ants
-\[@olson_comparison_1991; @sabu_efficacy_2010\]. Integrating multiple
-sampling methods may provide a more ecologically realistic view of the
-arthropod community available to poison frogs, including variation in
-foraging patterns that could underestimate prey availability.
+*Chiasmocleis* *leucosticta* ([Meurer et al. 2021](#ref-meurer2021)). In
+contrast, the Neotropical toad, *Rhinella alata*, selectively consumed
+larger, more conspicuous ants despite their rarity, while avoiding the
+more abundant but smaller *Solenopsis* ants ([McElroy and Donoso
+2019](#ref-mcelroy_ant_2019)). Also, as we limited our genus-level
+analysis to ants here, we cannot determine whether frogs select ants
+over other prey categories that may offer different metabolic benefits
+or higher nutritional value. For example, when prey availability is
+controlled under lab conditions, lab-raised Dendrobates tinctorius frogs
+gravitate to the most nutritious prey (larvae)​, regardless of size and
+other prey options including ants (Moskowitz et al., 2022). A careful
+comparison of frog diet with all available arthropods in the leaf litter
+through metabarcoding could be useful to determine whether behavioral
+selectivity is consistent across prey categories. Although we found
+solid evidence on the relationship between alkaloid defenses, frog diets
+and arthropod availability, it is worth noting that alkaloid profiles in
+poison frogs reflect long-term accumulation, whereas dietary composition
+and prey availability are measured at a single time point, potentially
+capturing only a subset of the frogs’ long-term foraging patterns.
+Finally, we collected leaf litter samples with Winkler sacs, which often
+capture abundant small, specialist myrmicines compared to pitfall traps,
+which are better in capturing bigger scavengers like *Anochetus* or
+*Hypoponera* ants ([Olson 1991](#ref-olson_comparison_1991); [Sabu and
+Shiju 2010](#ref-sabu_efficacy_2010)). Integrating multiple sampling
+methods may provide a more ecologically realistic view of the arthropod
+community available to poison frogs, including variation in foraging
+patterns that could underestimate prey availability.
 
 # Summary
 
@@ -2467,3 +2536,678 @@ AAB, DAD, ET, AC, JR, LAC, CR, KF. Visualization: NAM, LAO, CR.
 Supervision: LAO. Project administration: LAO. Funding acquisition: LAO.
 
 # References
+
+# References
+
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
+
+<div id="ref-agrawal_toxic_2012" class="csl-entry">
+
+Agrawal, Anurag A., Georg Petschenka, Robin A. Bingham, Marjorie G.
+Weber, and Sergio Rasmann. 2012. “Toxic Cardenolides: Chemical Ecology
+and Coevolution of Specialized Plant–Herbivore Interactions.” *New
+Phytologist* 194 (1): 28–45.
+<https://doi.org/10.1111/j.1469-8137.2011.04049.x>.
+
+</div>
+
+<div id="ref-aksenov2021" class="csl-entry">
+
+Aksenov, Alexander A., Ivan Laponogov, Zheng Zhang, Sophie L. F. Doran,
+Ilaria Belluomo, Dennis Veselkov, Wout Bittremieux, et al. 2021.
+“Auto-Deconvolution and Molecular Networking of Gas Chromatographymass
+Spectrometry Data.” *Nature Biotechnology* 39 (2): 169–73.
+<https://doi.org/10.1038/s41587-020-0700-3>.
+
+</div>
+
+<div id="ref-alvarez-buylla2023" class="csl-entry">
+
+Alvarez-Buylla, Aurora, Marie-Therese Fischer, Maria Dolores Moya
+Garzon, Alexandra E Rangel, Elicio E Tapia, Julia T Tanzo, H Tom Soh,
+Luis A Coloma, Jonathan Z Long, and Lauren A O’Connell. 2023. “Binding
+and Sequestration of Poison Frog Alkaloids by a Plasma Globulin.” Edited
+by Arun Radhakrishnan and Meredith C Schuman. *eLife* 12 (December):
+e85096. <https://doi.org/10.7554/eLife.85096>.
+
+</div>
+
+<div id="ref-amphibia2025" class="csl-entry">
+
+“AmphibiaWeb Database Search.” 2025.
+<https://amphibiaweb.org/search/index.html>.
+
+</div>
+
+<div id="ref-basset2023" class="csl-entry">
+
+Basset, Yves, Philip T. Butterill, David A. Donoso, Greg P. A. Lamarre,
+Daniel Souto-Vilarós, Filonila Perez, Ricardo Bobadilla, Yacksecari
+Lopez, José Alejandro Ramírez Silva, and Héctor Barrios. 2023.
+“Abundance, Occurrence and Time Series: Long-Term Monitoring of Social
+Insects in a Tropical Rainforest.” *Ecological Indicators* 150 (June):
+110243. <https://doi.org/10.1016/j.ecolind.2023.110243>.
+
+</div>
+
+<div id="ref-beran2022" class="csl-entry">
+
+Beran, Franziska, and Georg Petschenka. 2022. “Sequestration of Plant
+Defense Compounds by Insects: From Mechanisms to InsectPlant
+Coevolution.” *Annual Review of Entomology* 67 (Volume 67, 2022):
+163–80. <https://doi.org/10.1146/annurev-ento-062821-062319>.
+
+</div>
+
+<div id="ref-blum_alkaloidal_1980" class="csl-entry">
+
+Blum, M. S., T. H. Jones, B. Hölldobler, H. M. Fales, and T. Jaouni.
+1980. “Alkaloidal Venom Mace: Offensive Use by a Thief Ant.”
+*Naturwissenschaften* 67 (3): 144–45.
+<https://doi.org/10.1007/BF01073620>.
+
+</div>
+
+<div id="ref-glmmTMB" class="csl-entry">
+
+Brooks, Mollie E., Kasper Kristensen, Koen J. van, Arni Magnusson,
+Casper W. Berg, Anders Nielsen, Hans J. Skaug, Martin Maechler, and
+Benjamin M. Bolker. 2017. “glmmTMB Balances Speed and Flexibility Among
+Packages for Zero-Inflated Generalized Linear Mixed Modeling” 9.
+<https://doi.org/10.32614/RJ-2017-066>.
+
+</div>
+
+<div id="ref-brühl1999" class="csl-entry">
+
+Brühl, Carsten A., Maryati Mohamed, and K. Eduard Linsenmair. 1999.
+“Altitudinal Distribution of Leaf Litter Ants Along a Transect in
+Primary Forests on Mount Kinabalu, Sabah, Malaysia.” *Journal of
+Tropical Ecology* 15 (3): 265–77.
+<https://doi.org/10.1017/S0266467499000802>.
+
+</div>
+
+<div id="ref-caldwell_evolution_1996" class="csl-entry">
+
+Caldwell, Janalee P. 1996. “The Evolution of Myrmecophagy and Its
+Correlates in Poison Frogs (Family Dendrobatidae).” *Journal of Zoology*
+240 (1): 75–101. <https://doi.org/10.1111/j.1469-7998.1996.tb05487.x>.
+
+</div>
+
+<div id="ref-caty_alkaloids_2025" class="csl-entry">
+
+Caty, Stephanie N., Aurora Alvarez-Buylla, Cooper Vasek, Elicio E.
+Tapia, Nora A. Martin, Theresa McLaughlin, Chloe L. Golde, et al. 2025.
+“Alkaloids Are Associated with Increased Microbial Diversity and
+Metabolic Function in Poison Frogs.” *Current Biology* 35 (1):
+187–197.e8. <https://doi.org/10.1016/j.cub.2024.10.069>.
+
+</div>
+
+<div id="ref-daly2007" class="csl-entry">
+
+Daly, J. W., J. M. Wilham, T. F. Spande, H. M. Garraffo, R. R. Gil, G.
+L. Silva, and M. Vaira. 2007. “Alkaloids in Bufonid Toads
+(Melanophryniscus): Temporal and Geographic Determinants for Two
+Argentinian Species.” *Journal of Chemical Ecology* 33 (4): 871–87.
+<https://doi.org/10.1007/s10886-007-9261-x>.
+
+</div>
+
+<div id="ref-daly1994" class="csl-entry">
+
+Daly, John W., Sherrie I. Secunda, H. Martin Garraffo, Thomas F. Spande,
+Anthony Wisnieski, and Jack F. Cover. 1994. “An Uptake System for
+Dietary Alkaloids in Poison Frogs (Dendrobatidae).” *Toxicon* 32 (6):
+657–63. <https://doi.org/10.1016/0041-0101(94)90335-2>.
+
+</div>
+
+<div id="ref-daly2005" class="csl-entry">
+
+Daly, John W., Thomas F. Spande, and H. Martin Garraffo. 2005.
+“Alkaloids from Amphibian Skin: A Tabulation of Over Eight-Hundred
+Compounds.” *Journal of Natural Products* 68 (10): 1556–75.
+<https://doi.org/10.1021/np0580560>.
+
+</div>
+
+<div id="ref-darst2005" class="csl-entry">
+
+Darst, Catherine R., Pablo A. Menéndez-Guerrero, Luis A. Coloma, and
+David C. Cannatella. 2005. “Evolution of Dietary Specialization and
+Chemical Defense in Poison Frogs (Dendrobatidae): A Comparative
+Analysis.” *The American Naturalist* 165 (1): 56–69.
+<https://doi.org/10.1086/426599>.
+
+</div>
+
+<div id="ref-deslippe2000" class="csl-entry">
+
+Deslippe, Richard J, and Yu-Jie Guo. 2000. “Venom Alkaloids of ®Re Ants
+in Relation to Worker Size and Age.”
+
+</div>
+
+<div id="ref-donnelly_feeding_1991" class="csl-entry">
+
+Donnelly, Maureen A. 1991. “Feeding Patterns of the Strawberry Poison
+Frog, Dendrobates Pumilio (Anura: Dendrobatidae).” *Copeia* 1991 (3):
+723. <https://doi.org/10.2307/1446399>.
+
+</div>
+
+<div id="ref-donoso2017" class="csl-entry">
+
+Donoso, David A. 2017. “Tropical Ant Communities Are in Long-Term
+Equilibrium.” *Ecological Indicators* 83 (December): 515–23.
+<https://doi.org/10.1016/j.ecolind.2017.03.022>.
+
+</div>
+
+<div id="ref-donoso2009" class="csl-entry">
+
+Donoso, David A., and Giovanni Ramón. 2009. “Composition of a High
+Diversity Leaf Litter Ant Community (Hymenoptera: Formicidae) from an
+Ecuadorian Pre-Montane Rainforest.” *Annales de La Société Entomologique
+de France (N.S.)* 45 (4): 487–99.
+<https://doi.org/10.1080/00379271.2009.10697631>.
+
+</div>
+
+<div id="ref-ade4" class="csl-entry">
+
+Dray, Stéphane, and Anne–Béatrice Dufour. 2007. “The Ade4 Package:
+Implementing the Duality Diagram for Ecologists” 22.
+<https://doi.org/10.18637/jss.v022.i04>.
+
+</div>
+
+<div id="ref-fick2017" class="csl-entry">
+
+Fick, Stephen E., and Robert J. Hijmans. 2017. “WorldClim 2: New 1-Km
+Spatial Resolution Climate Surfaces for Global Land Areas.”
+*International Journal of Climatology* 37 (12): 4302–15.
+<https://doi.org/10.1002/joc.5086>.
+
+</div>
+
+<div id="ref-funkhouser1956" class="csl-entry">
+
+Funkhouser, John W. 1956. “New Frogs from Ecuador and Southwestern
+Colombia.” *Zoologica : Scientific Contributions of the New York
+Zoological Society* 41 (9). <https://doi.org/10.5962/p.190356>.
+
+</div>
+
+<div id="ref-gibb2015" class="csl-entry">
+
+Gibb, Heloise, Nathan J. Sanders, Robert R. Dunn, Simon Watson, Manoli
+Photakis, Silvia Abril, Alan N. Andersen, et al. 2015. “Climate Mediates
+the Effects of Disturbance on Ant Assemblage Structure.” *Proceedings of
+the Royal Society B: Biological Sciences* 282 (1808): 20150418.
+<https://doi.org/10.1098/rspb.2015.0418>.
+
+</div>
+
+<div id="ref-hoenle2022" class="csl-entry">
+
+Hoenle, Philipp O., David A. Donoso, Adriana Argoti, Michael Staab,
+Christoph von Beeren, and Nico Blüthgen. 2022. “Rapid Ant Community
+Reassembly in a Neotropical Forest: Recovery Dynamics and Land-Use
+Legacy.” *Ecological Applications* 32 (4): e2559.
+<https://doi.org/10.1002/eap.2559>.
+
+</div>
+
+<div id="ref-jeckel2019" class="csl-entry">
+
+Jeckel, Adriana M., Sophie Kocheff, Ralph A. Saporito, and Taran Grant.
+2019. “Geographically Separated Orange and Blue Populations of the
+Amazonian Poison Frog Adelphobates Galactonotus (Anura, Dendrobatidae)
+Do Not Differ in Alkaloid Composition or Palatability.” *Chemoecology*
+29 (5-6): 225–34. <https://doi.org/10.1007/s00049-019-00291-3>.
+
+</div>
+
+<div id="ref-jones_ant_1982" class="csl-entry">
+
+Jones, Tappey H., Murray S. Blum, and Henry M. Fales. 1982. “Ant Venom
+Alkaloids from *Solenopsis* and *Monorium* Species.” *Tetrahedron*, The
+organic chemistry of animal defense mechanisms, 38 (13): 1949–58.
+<https://doi.org/10.1016/0040-4020(82)80044-6>.
+
+</div>
+
+<div id="ref-jones_further_1999" class="csl-entry">
+
+Jones, Tappey H., Jeffrey S. T. Gorman, Roy R. Snelling, Jacques H. C.
+Delabie, Murray S. Blum, H. Martin Garraffo, Poonam Jain, John W. Daly,
+and Thomas F. Spande. 1999. “Further Alkaloids Common to Ants and Frogs:
+Decahydroquinolines and a Quinolizidine.” *Journal of Chemical Ecology*
+25 (5): 1179–93. <https://doi.org/10.1023/A:1020898229304>.
+
+</div>
+
+<div id="ref-lawrence_linking_2023" class="csl-entry">
+
+Lawrence, J. P., Bibiana Rojas, Annelise Blanchette, Ralph A. Saporito,
+Johanna Mappes, Antoine Fouquet, and Brice P. Noonan. 2023. “Linking
+Predator Responses to Alkaloid Variability in Poison Frogs.” *Journal of
+Chemical Ecology* 49 (3): 195–204.
+<https://doi.org/10.1007/s10886-023-01412-7>.
+
+</div>
+
+<div id="ref-emmeans" class="csl-entry">
+
+Lenth, Russell V. 2025. “Emmeans: Estimated Marginal Means, Aka
+Least-Squares Means.” <https://CRAN.R-project.org/package=emmeans>.
+
+</div>
+
+<div id="ref-mackay1986" class="csl-entry">
+
+Mackay, William P., Solange Silva, David C. Lightfoot, Maria Inez
+Pagani, and Walter G. Whitford. 1986. “Effect of Increased Soil Moisture
+and Reduced Soil Temperature on a Desert Soil Arthropod Community.”
+*American Midland Naturalist* 116 (1): 45.
+<https://doi.org/10.2307/2425936>.
+
+</div>
+
+<div id="ref-mcelroy_ant_2019" class="csl-entry">
+
+McElroy, Matthew T., and David A. Donoso. 2019. “Ant Morphology Mediates
+Diet Preference in a Neotropical Toad (Rhinella Alata).” *Copeia* 107
+(3): 430. <https://doi.org/10.1643/CH-18-162>.
+
+</div>
+
+<div id="ref-mcgugan2016" class="csl-entry">
+
+McGugan, Jenna R., Gary D. Byrd, Alexandre B. Roland, Stephanie N. Caty,
+Nisha Kabir, Elicio E. Tapia, Sunia A. Trauger, Luis A. Coloma, and
+Lauren A. O’Connell. 2016. “Ant and Mite Diversity Drives Toxin
+Variation in the Little Devil Poison Frog.” *Journal of Chemical
+Ecology* 42 (6): 537–51. <https://doi.org/10.1007/s10886-016-0715-x>.
+
+</div>
+
+<div id="ref-mebs2002" class="csl-entry">
+
+Mebs, D. 2002. *Venomous and Poisonous Animals: A Handbook for
+Biologists, Toxicologists and Toxinologists, Physicians and
+Pharmacists*. CRC Press.
+
+</div>
+
+<div id="ref-meurer2021" class="csl-entry">
+
+Meurer, William, Felipe G. Gonçalves, Ricardo S. Bovendorp, Alexandre R.
+Percequillo, and Jaime Bertoluci. 2021. “Diet Electivity and Preferences
+for Food Resources in Chiasmocleis Leucosticta (Anura: Microhylidae).”
+*Journal of Herpetology* 55 (4): 325–29.
+<https://doi.org/10.1670/20-106>.
+
+</div>
+
+<div id="ref-moses2021" class="csl-entry">
+
+Moses, Jimmy, Tom M. Fayle, Vojtech Novotny, and Petr Klimes. 2021.
+“Elevation and Leaf Litter Interact in Determining the Structure of Ant
+Communities on a Tropical Mountain.” *Biotropica* 53 (3): 906–19.
+<https://doi.org/10.1111/btp.12914>.
+
+</div>
+
+<div id="ref-moskowitz2022" class="csl-entry">
+
+Moskowitz, Nora A., Rachel D’Agui, Aurora Alvarez-Buylla, Katherine
+Fiocca, and Lauren A. O’Connell. 2022. “Poison Frog Dietary Preference
+Depends on Prey Type and Alkaloid Load.” Edited by Mainul Haque. *PLOS
+ONE* 17 (12): e0276331. <https://doi.org/10.1371/journal.pone.0276331>.
+
+</div>
+
+<div id="ref-moskowitz_land_2020" class="csl-entry">
+
+Moskowitz, Nora A., Barbara Dorritie, Tammy Fay, Olivia C. Nieves,
+Charles Vidoudez, Cambridge Rindge Latin 2017 Biology Class, Masconomet
+2017 Biotechnology Class, et al. 2020. “Land Use Impacts Poison Frog
+Chemical Defenses Through Changes in Leaf Litter Ant Communities.”
+*Neotropical Biodiversity* 6 (1): 75–87.
+<https://doi.org/10.1080/23766808.2020.1744957>.
+
+</div>
+
+<div id="ref-moskowitz2018" class="csl-entry">
+
+Moskowitz, Nora A., Alexandre B. Roland, Eva K. Fischer, Ndimbintsoa
+Ranaivorazo, Charles Vidoudez, Marianne T. Aguilar, Sophia M. Caldera,
+et al. 2018. “Seasonal Changes in Diet and Chemical Defense in the
+Climbing Mantella Frog (Mantella Laevigata).” Edited by Alex V. Chaves.
+*PLOS ONE* 13 (12): e0207940.
+<https://doi.org/10.1371/journal.pone.0207940>.
+
+</div>
+
+<div id="ref-myers1976" class="csl-entry">
+
+Myers, Charles W., and John W. Daly. 1976. “Preliminary evaluation of
+skin toxins and vocalizations in taxonomic and evolutionary studies of
+poison-dart frogs (Dendrobatidae). Bulletin of the AMNH ; v. 157,
+article 3.” <http://hdl.handle.net/2246/622>.
+
+</div>
+
+<div id="ref-nayik_handbook_2022" class="csl-entry">
+
+Nayik, Gulzar Ahmad, and Jasmeet Kour, eds. 2022. *Handbook of Plant and
+Animal Toxins in Food: Occurrence, Toxicity, and Prevention*. Boca
+Raton: CRC Press. <https://doi.org/10.1201/9781003178446>.
+
+</div>
+
+<div id="ref-vegan" class="csl-entry">
+
+Oksanen, Jari, Gavin L. Simpson, F. Guillaume Blanchet, Roeland Kindt,
+Pierre Legendre, Peter R. Minchin, R. B. O’Hara, et al. 2024. “Vegan:
+Community Ecology Package.” <https://CRAN.R-project.org/package=vegan>.
+
+</div>
+
+<div id="ref-olson_comparison_1991" class="csl-entry">
+
+Olson, David M. 1991. “A Comparison of the Efficacy of Litter Sifting
+and Pitfall Traps for Sampling Leaf Litter Ants (Hymenoptera,
+Formicidae) in a Tropical Wet Forest, Costa Rica.” *Biotropica* 23 (2):
+166. <https://doi.org/10.2307/2388302>.
+
+</div>
+
+<div id="ref-parr2017" class="csl-entry">
+
+Parr, Catherine L., Robert R. Dunn, Nathan J. Sanders, Michael D.
+Weiser, Manoli Photakis, Tom R. Bishop, Matthew C. Fitzpatrick, et al.
+2017. “GlobalAnts: A New Database on the Geography of Ant Traits
+(Hymenoptera: Formicidae).” *Insect Conservation and Diversity* 10 (1):
+5–20. <https://doi.org/10.1111/icad.12211>.
+
+</div>
+
+<div id="ref-prates2019" class="csl-entry">
+
+Prates, Ivan, Andrea Paz, Jason L. Brown, and Ana C. Carnaval. 2019.
+“Links Between Prey Assemblages and Poison Frog Toxins: A Landscape
+Ecology Approach to Assess How Biotic Interactions Affect Species
+Phenotypes.” *Ecology and Evolution* 9 (24): 14317–29.
+<https://doi.org/10.1002/ece3.5867>.
+
+</div>
+
+<div id="ref-roberts_alkaloids_1998" class="csl-entry">
+
+Roberts, Margaret F., and Michael Wink, eds. 1998. *Alkaloids:
+Biochemistry, Ecology, and Medicinal Applications*. Boston, MA: Springer
+US. <https://doi.org/10.1007/978-1-4757-2905-4>.
+
+</div>
+
+<div id="ref-sabu_efficacy_2010" class="csl-entry">
+
+Sabu, Thomas K., and Raj T. Shiju. 2010. “Efficacy of Pitfall Trapping,
+Winkler and Berlese Extraction Methods for Measuring Ground-Dwelling
+Arthropods in Moistdeciduous Forests in the Western Ghats.” *Journal of
+Insect Science* 10 (1): 98. <https://doi.org/10.1673/031.010.9801>.
+
+</div>
+
+<div id="ref-salazar2015" class="csl-entry">
+
+Salazar, Fernanda, Fabian Reyes-Bueno, Daniel Sanmartin, and David A
+Donoso. 2015. “Mapping Continental Ecuadorian Ant Species.”
+*Sociobiology* 62 (2): 132–62.
+<https://doi.org/10.13102/sociobiology.v62i2.132-162>.
+
+</div>
+
+<div id="ref-sanches_what_2023" class="csl-entry">
+
+Sanches, Patrick R., Luã E. Santos-Guerra, Fillipe Pedroso-Santos, Igor
+L. Kaefer, and Carlos E. Costa-Campos. 2023. “What Do Co-Mimics Eat?
+Trophic Ecology of Ameerega Pulchripecta (Anura, Dendrobatidae) and
+Allobates Femoralis (Anura, Aromobatidae) in Eastern Brazilian
+Amazonia.” *Journal of Herpetology* 57 (4).
+<https://doi.org/10.1670/22-074>.
+
+</div>
+
+<div id="ref-sanchez_loja_conspicuous_2023" class="csl-entry">
+
+Sánchez Loja, Santiago, David A. Donoso, and Monica Isabel Paez Vacas.
+2023. “Conspicuous and Cryptic Poison Frogs Are Picky and Prefer
+Different Meals in Syntopy,” December.
+<https://doi.org/10.1007/s10682-023-10282-0>.
+
+</div>
+
+<div id="ref-santos2003" class="csl-entry">
+
+Santos, Juan Carlos, Luis A. Coloma, and David C. Cannatella. 2003.
+“Multiple, Recurring Origins of Aposematism and Diet Specialization in
+Poison Frogs.” *Proceedings of the National Academy of Sciences* 100
+(22): 12792–97. <https://doi.org/10.1073/pnas.2133521100>.
+
+</div>
+
+<div id="ref-santos2016" class="csl-entry">
+
+Santos, Juan C., Rebecca D. Tarvin, and Lauren A. O’Connell. 2016. “A
+Review of Chemical Defense in Poison Frogs (Dendrobatidae): Ecology,
+Pharmacokinetics, and Autoresistance.” In, edited by Bruce A. Schulte,
+Thomas E. Goodwin, and Michael H. Ferkin, 305–37. Cham: Springer
+International Publishing.
+<https://doi.org/10.1007/978-3-319-22026-0_21>.
+
+</div>
+
+<div id="ref-saporito_geographic_2006" class="csl-entry">
+
+Saporito, Ralph A., Maureen A. Donnelly, H. Martin Garraffo, Thomas F.
+Spande, and John W. Daly. 2006. “Geographic and Seasonal Variation in
+Alkaloid-Based Chemical Defenses of Dendrobates Pumilio from Bocas Del
+Toro, Panama.” *Journal of Chemical Ecology* 32 (4): 795–814.
+<https://doi.org/10.1007/s10886-006-9034-y>.
+
+</div>
+
+<div id="ref-saporito_spatial_2007" class="csl-entry">
+
+Saporito, Ralph A., Maureen A. Donnelly, Poonam Jain, H. Martin
+Garraffo, Thomas F. Spande, and John W. Daly. 2007. “Spatial and
+Temporal Patterns of Alkaloid Variation in the Poison Frog *Oophaga
+Pumilio* in Costa Rica and Panama over 30 Years.” *Toxicon* 50 (6):
+757–78. <https://doi.org/10.1016/j.toxicon.2007.06.022>.
+
+</div>
+
+<div id="ref-saporito2010" class="csl-entry">
+
+Saporito, Ralph A., Maureen A. Donnelly, Anne A. Madden, H. Martin
+Garraffo, and Thomas F. Spande. 2010. “Sex-Related Differences in
+Alkaloid Chemical Defenses of the Dendrobatid Frog Oophaga Pumilio from
+Cayo Nancy, Bocas Del Toro, Panama.” *Journal of Natural Products* 73
+(3): 317–21. <https://doi.org/10.1021/np900702d>.
+
+</div>
+
+<div id="ref-saporito_oribatid_2007" class="csl-entry">
+
+Saporito, Ralph A., Maureen A. Donnelly, Roy A. Norton, H. Martin
+Garraffo, Thomas F. Spande, and John W. Daly. 2007. “Oribatid Mites as a
+Major Dietary Source for Alkaloids in Poison Frogs.” *Proceedings of the
+National Academy of Sciences* 104 (21): 8885–90.
+<https://doi.org/10.1073/pnas.0702851104>.
+
+</div>
+
+<div id="ref-saporito_formicine_2004" class="csl-entry">
+
+Saporito, Ralph A., H. Martin Garraffo, Maureen A. Donnelly, Adam L.
+Edwards, John T. Longino, and John W. Daly. 2004. “Formicine Ants: An
+Arthropod Source for the Pumiliotoxin Alkaloids of Dendrobatid Poison
+Frogs.” *Proceedings of the National Academy of Sciences* 101 (21):
+8045–50. <https://doi.org/10.1073/pnas.0402365101>.
+
+</div>
+
+<div id="ref-saporito_alkaloids_2011" class="csl-entry">
+
+Saporito, Ralph A., Roy A. Norton, Nirina R. Andriamaharavo, Hugo Martin
+Garraffo, and Thomas F. Spande. 2011. “Alkaloids in the Mite
+Scheloribates Laevigatus: Further Alkaloids Common to Oribatid Mites and
+Poison Frogs.” *Journal of Chemical Ecology* 37 (2): 213–18.
+<https://doi.org/10.1007/s10886-011-9914-7>.
+
+</div>
+
+<div id="ref-saporito_taxonomic_2015" class="csl-entry">
+
+Saporito, Ralph A., Roy A. Norton, Martin H. Garraffo, and Thomas F.
+Spande. 2015. “Taxonomic Distribution of Defensive Alkaloids in Nearctic
+Oribatid Mites (Acari, Oribatida).” *Experimental and Applied Acarology*
+67 (3): 317–33. <https://doi.org/10.1007/s10493-015-9962-8>.
+
+</div>
+
+<div id="ref-savitzky2012" class="csl-entry">
+
+Savitzky, Alan H., Akira Mori, Deborah A. Hutchinson, Ralph A. Saporito,
+Gordon M. Burghardt, Harvey B. Lillywhite, and Jerrold Meinwald. 2012.
+“Sequestered Defensive Toxins in Tetrapod Vertebrates: Principles,
+Patterns, and Prospects for Future Studies.” *Chemoecology* 22 (3):
+141–58. <https://doi.org/10.1007/s00049-012-0112-z>.
+
+</div>
+
+<div id="ref-silva2014" class="csl-entry">
+
+Silva, Rogério R., and Carlos Roberto F. Brandão. 2014. “Ecosystem-Wide
+Morphological Structure of Leaf-Litter Ant Communities Along a Tropical
+Latitudinal Gradient.” *PLOS ONE* 9 (3): e93049.
+<https://doi.org/10.1371/journal.pone.0093049>.
+
+</div>
+
+<div id="ref-spande_occurrence_1999" class="csl-entry">
+
+Spande, Thomas F., Poonam Jain, H. Martin Garraffo, Lewis K. Pannell,
+Herman J. C. Yeh, John W. Daly, Sinji Fukumoto, et al. 1999. “Occurrence
+and Significance of Decahydroquinolines from Dendrobatid Poison Frogs
+and a Myrmicine Ant:  Use of 1H and 13C NMR in Their Conformational
+Analysis.” *Journal of Natural Products* 62 (1): 5–21.
+<https://doi.org/10.1021/np980298v>.
+
+</div>
+
+<div id="ref-strauss1979" class="csl-entry">
+
+Strauss, Richard E. 1979. “Reliability Estimates for Ivlevˈs Electivity
+Index, the Forage Ratio, and a Proposed Linear Index of Food Selection.”
+*Transactions of the American Fisheries Society* 108 (4): 344–52.
+[https://doi.org/10.1577/1548-8659(1979)108\<344:REFIEI\>2.0.CO;2](https://doi.org/10.1577/1548-8659(1979)108<344:REFIEI>2.0.CO;2).
+
+</div>
+
+<div id="ref-stuckert2014" class="csl-entry">
+
+Stuckert, Adam MM, Ralph A. Saporito, Pablo J. Venegas, and Kyle
+Summers. 2014. “Alkaloid Defenses of Co-Mimics in a Putative Müllerian
+Mimetic Radiation.” *BMC Evolutionary Biology* 14 (1): 76.
+<https://doi.org/10.1186/1471-2148-14-76>.
+
+</div>
+
+<div id="ref-tarvin_passive_2024" class="csl-entry">
+
+Tarvin, Rebecca D, Jeffrey L Coleman, David A Donoso, Mileidy
+Betancourth-Cundar, Karem López-Hervas, Kimberly S Gleason, J Ryan
+Sanders, et al. 2024. “Passive Accumulation of Alkaloids in
+Inconspicuously Colored Frogs Refines the Evolutionary Paradigm of
+Acquired Chemical Defenses.” <https://doi.org/10.7554/eLife.100011.2>.
+
+</div>
+
+<div id="ref-tiede2017" class="csl-entry">
+
+Tiede, Yvonne, Jan Schlautmann, David A. Donoso, Christine I. B. Wallis,
+Jörg Bendix, Roland Brandl, and Nina Farwig. 2017. “Ants as Indicators
+of Environmental Change and Ecosystem Processes.” *Ecological
+Indicators* 83 (December): 527–37.
+<https://doi.org/10.1016/j.ecolind.2017.01.029>.
+
+</div>
+
+<div id="ref-toft_evolution_1995" class="csl-entry">
+
+Toft, Catherine A. 1995. “Evolution of Diet Specialization in
+Poison-Dart Frogs (Dendrobatidae).” *Herpetologica* 51 (2): 202–16.
+<https://www.jstor.org/stable/3892588>.
+
+</div>
+
+<div id="ref-MASS" class="csl-entry">
+
+Venables, W. N., and B. D. Ripley. 2002. “Modern Applied Statistics with
+s.” <https://www.stats.ox.ac.uk/pub/MASS4/>.
+
+</div>
+
+<div id="ref-virjamo2016" class="csl-entry">
+
+Virjamo, V., and R. Julkunen-Tiitto. 2016. “Variation in Piperidine
+Alkaloid Chemistry of Norway Spruce (Picea Abies) Foliage in Diverse
+Geographic Origins Grown in the Same Area.” *Canadian Journal of Forest
+Research* 46 (4): 456–60. <https://doi.org/10.1139/cjfr-2015-0388>.
+
+</div>
+
+<div id="ref-walsh2017" class="csl-entry">
+
+Walsh, Christopher T., and Yi Tang. 2017. *Natural Product Biosynthesis:
+Chemical Logic and Enzymatic Machinery*. Royal Society of Chemistry.
+
+</div>
+
+<div id="ref-wang2016" class="csl-entry">
+
+Wang, Mingxun, Jeremy J. Carver, Vanessa V. Phelan, Laura M. Sanchez,
+Neha Garg, Yao Peng, Don Duy Nguyen, et al. 2016. “Sharing and Community
+Curation of Mass Spectrometry Data with Global Natural Products Social
+Molecular Networking.” *Nature Biotechnology* 34 (8): 828–37.
+<https://doi.org/10.1038/nbt.3597>.
+
+</div>
+
+<div id="ref-weldon_poison_2017" class="csl-entry">
+
+Weldon, Paul J. 2017. “Poison Frogs, Defensive Alkaloids, and Sleepless
+Mice: Critique of a Toxicity Bioassay.” *Chemoecology* 27 (4): 123–26.
+<https://doi.org/10.1007/s00049-017-0238-0>.
+
+</div>
+
+<div id="ref-wise2019" class="csl-entry">
+
+Wise, David H., and Janet R. Lensing. 2019. “Impacts of Rainfall
+Extremes Predicted by Climate-Change Models on Major Trophic Groups in
+the Leaf Litter Arthropod Community.” *Journal of Animal Ecology* 88
+(10): 1486–97. <https://doi.org/10.1111/1365-2656.13046>.
+
+</div>
+
+</div>
