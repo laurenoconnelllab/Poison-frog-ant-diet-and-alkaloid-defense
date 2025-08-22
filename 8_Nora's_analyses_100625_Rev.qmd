@@ -1,13 +1,17 @@
 ---
 title: "Poison frog chemical defenses are influenced by environmental availability and dietary selectivity for ants"
+bibliography: references.bib         # your .bib file
+citeproc: true                       # ensure pandoc’s cite processor runs
+reference-location: document         # print refs at the end of the doc
+reference-section-title: "References"  # visible heading in README
+link-citations: true                 # clickable in-text citations
 format:
-  html: default           # full-featured HTML report
-  gfm:                    # GitHub-Flavored Markdown for README
+  html: default
+  gfm:
     output-file: README.md
 execute:
   warning: false
   message: false
-bibliography: references.bib
 ---
 
 ```{=html}
