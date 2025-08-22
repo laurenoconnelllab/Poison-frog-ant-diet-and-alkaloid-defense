@@ -1,23 +1,6 @@
-# Poison frog chemical defenses are influenced by environmental
-availability and dietary selectivity for ants
+# Poison frog chemical defenses are influenced by environmental availability and dietary selectivity for ants
 
 
-<style>
-table caption {
-    text-align: left !important;
-}
-</style>
-
-<style>
-p {
-  text-indent: 1.5em;
-}
-&#10;.authors-section p {
-  text-indent: 0; /* Remove indentation for paragraphs inside authors-section */
-}
-</style>
-
-<div class="authors-section">
 
 Nora A. Martin†¹, Camilo Rodríguez†¹, Aurora Alvarez-Buylla¹, Katherine
 Fiocca¹, Colin R. Morrison², Adolfo Chamba-Carrillo³, Ana B.
