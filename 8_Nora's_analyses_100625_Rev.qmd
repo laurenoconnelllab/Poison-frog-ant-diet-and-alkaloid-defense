@@ -7,7 +7,7 @@ format:
 execute:
   warning: false
   message: false
-bibliography: "references.bib"
+bibliography: references.bib
 ---
 
 ```{=html}
