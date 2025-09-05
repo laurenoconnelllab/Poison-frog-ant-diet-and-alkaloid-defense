@@ -173,7 +173,7 @@ defenses across taxa.
 <a id="fig-1"></a>
 ![Figure 1](Fig1.png)
 
-Figure 1: Map of frog populations and experimental workflow. **(A)**
+**Figure 1: Map of frog populations and experimental workflow.** **(A)**
 Collection sites are shown on a topographic map of western Ecuador. Note
 that both *Hyloxalus infraguttatus* and *Oophaga sylvatica* were
 collected from La Maná. m.a.s.l. = meters above the sea level. **(B)** A
@@ -969,10 +969,6 @@ eigenvalues <- data.frame(eigenvalues = PCAtraits$eig) %>%
 eigenvalues
 ```
 
-![Eigenvalues of the first 5 principal components. The first three
-components have eigenvalues higher than
-one](8_Nora-s_analyses_100625_Rev_files/figure-commonmark/unnamed-chunk-7-1.png)
-
 # Results
 
 ## Alkaloids differ between species and across diablito frog populations
@@ -1024,7 +1020,7 @@ T1 <- pwise.test %>%
 T1
 ```
 
-Table 1: P-values of pairwise Wilcoxon test on differences in summed
+**Table 1:** P-values of pairwise Wilcoxon test on differences in summed
 alkaloids between frog populations
 
 |                  | Ceiba   | C. colón | P. Quito | S. Domingo | La Maná |
@@ -1038,7 +1034,7 @@ alkaloids between frog populations
 <a id="fig-2"></a>
 ![Figure 2](Fig2.png)
 
-Figure 2: **Alkaloid profiles differ between *Oophaga sylvatica*
+**Figure 2: Alkaloid profiles differ between *Oophaga sylvatica*
 populations.** **(A)** The summed relative abundances of 79 alkaloids
 are visualized as box plots, where each dot represents a frog. The y
 axis is square-root transformed for visual clarity and summed alkaloids
@@ -1123,7 +1119,7 @@ T2
 
 <div id="tbl-2">
 
-Table 2: Summary of the results of pairwise comparisons of a PERMANOVA
+**Table 2:** Summary of the results of pairwise comparisons of a PERMANOVA
 in alkaloid composition between *O. sylvatica* populations
 
 | Contrasts                       |  df |         F |        R2 | p.adjusted |
@@ -1400,7 +1396,7 @@ T3
 
 <div id="tbl-3">
 
-Table 3: Summarized results of estimated marginal means between frog
+**Table 3:** Summarized results of estimated marginal means between frog
 species and prey items. P-values were adjusted using Tukey’s method
 
 <div class="cell-output-display">
@@ -1593,7 +1589,7 @@ ch_inf <- chordDiagram(H.infra, grid.col = colors)
 
 ![Figure 3](Fig3.png)
 
-Figure 3: **Diet differs between frog species and across diablito frog
+**Figure 3: Diet differs between frog species and across diablito frog
 populations.** **(A)** Chord diagram showing a bipartite network of the
 dietary interactions between two frog species, the non-toxic *H.
 infraguttatus* and the toxic *O. sylvatica*, and their arthropod prey in
@@ -1648,7 +1644,7 @@ T4
 
 <div id="tbl-4">
 
-Table 4: Summary of the results of pairwise correlations between each
+**Table 4:** Summary of the results of pairwise correlations between each
 alkaloid class and ant & mite abundance.
 
 
@@ -1847,7 +1843,7 @@ fig4c <- ant_all %>%
 
 ![Figure 4](Fig4.png)
 
-Figure 4: **Ant community composition varies across localities.**
+**Figure 4: Ant community composition varies across localities.**
 **(A)** Non-metric multidimensional scaling (NMDS) biplot based on
 Bray-Curtis dissimilarities showing ant communities across locations
 based on the relative abundances of 113 ant species (Stress = 0.156).
@@ -1886,7 +1882,7 @@ T5
 
 <div id="tbl-5">
 
-Table 5: Summary of the results of pairwise comparisons of a PERMANOVA
+**Table 5:** Summary of the results of pairwise comparisons of a PERMANOVA
 in leaf litter ant composition between study sites
 
 
@@ -1962,8 +1958,8 @@ f5b <- ggplot() +
 
 ![Figure 5](Fig5.png)
 
-Figure 5: **Relative abundance and selectivity for ant genera differs
-across localities. **(A)\*\* Boxplot showing differences across
+**Figure 5: Relative abundance and selectivity for ant genera differs
+across localities.** **(A)** Boxplot showing differences across
 populations in total abundance of ants within 17 ant genera found in
 both leaf litter and frog stomach samples. The y axis is square-root
 transformed for visual clarity. n.s. = non-significant. \* p-value\<0.05
@@ -2010,7 +2006,7 @@ T6
 
 <div id="tbl-6">
 
-Table 6: Summary of the results of pairwise comparisons of a Negative
+**Table 6:** Summary of the results of pairwise comparisons of a Negative
 Binomial regresion comparing ant abundance between *O. sylvatica*
 populations. P-values were adjusted using Tukey’s method
 
@@ -2116,8 +2112,8 @@ fig6b <- elect.morph %>%
 ![Figure 6](Fig6.png)
 
 
-Figure 6: **Boxplots showing differences between categorical selectivity
-in principal component scores on 17 ant traits. **(A)\*\* First
+**Figure 6: Boxplots showing differences between categorical selectivity
+in principal component scores on 17 ant traits.** **(A)** First
 principal component (PC1) representing size and texture traits. High
 score values depict larger ants and low score values depict smaller
 ants. **(B)** Second principal component (PC2) representing body
@@ -2155,7 +2151,7 @@ T7
 
 <div id="tbl-7">
 
-Table 7: P-values of pairwise Wilcoxon test on differences in principal
+**Table 7:** P-values of pairwise Wilcoxon test on differences in principal
 components between linear selectivity categories
 
 
