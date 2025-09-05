@@ -23,10 +23,7 @@ Quito, Ecuador<br><br>
 <a href="mailto:david.donosov@gmail.com">david.donosov@gmail.com</a>,
 <a href="mailto:loconnel@stanford.edu">loconnel@stanford.edu</a>
 
-</div>
-
-![Graphical
-abstract](8_Nora-s_analyses_100625_Rev_files/figure-commonmark/unnamed-chunk-1-1.png)
+![Graphical abstract](Graphical_abstract.png)
 
 # Abstract
 
@@ -173,11 +170,8 @@ acquisition, which has broader implications for our general
 understanding of trophic interactions and the evolution of chemical
 defenses across taxa.
 
-<div id="fig-1">
-
-<img
-src="8_Nora-s_analyses_100625_Rev_files/figure-commonmark/fig-1-1.png"
-data-fig-align="left" />
+<a id="fig-1"></a>
+![Figure 1](Fig1.png)
 
 Figure 1: Map of frog populations and experimental workflow. **(A)**
 Collection sites are shown on a topographic map of western Ecuador. Note
@@ -187,11 +181,6 @@ flowchart depicts the main steps of data collection for frog stomach
 content and leaf litter samples, in order to compare ant genera
 abundances between these groups.
 
-</div>
-
-<a
-href="https://drive.google.com/open?id=1oz7vn6lXDQIToIUbWO45K2Yb2mEjzmmm&amp;usp=drive_fs"
-class="external" target="_blank">Figure 1.</a>
 
 # Methods
 
@@ -202,7 +191,7 @@ daylight in secondary forests near the towns of Ceiba (N=10; 207
 m.a.s.l), Cristóbal Colón (N=11; 221 m.a.s.l), Puerto Quito (N=11; 302
 m.a.s.l), Santo Domingo de los Tsáchilas (N=10; 632 m.a.s.l), and La
 Maná (N=20; 480 m.a.s.l), in Northwestern Ecuador
-(<a href="#fig-1" class="quarto-xref">Figure 1</a> A). As *O. sylvatica*
+[Figure 1](#fig-1)A. As *O. sylvatica*
 suffers from illegal poaching for the pet trade, coordinates for
 collection can be obtained from the corresponding authors. Chimbo rocket
 frogs (*Hyloxalus infraguttatus*) were collected during daylight from La
@@ -401,10 +390,7 @@ conflicts_prefer(base::union)
 
 conflicts_prefer(magrittr::set_names)
 ```
-
-All data sets used for this analyses can be accessed in:
-<https://drive.google.com/open?id=1d0iVHDFW4sX9hHQyasMv9oO-aWF1Ff_5&usp=drive_fs>
-
+### Data
 ``` r
 #Alkaloid feature table
 feat_tab <- read.csv('featureTableY_normalized.csv')
@@ -993,7 +979,7 @@ one](8_Nora-s_analyses_100625_Rev_files/figure-commonmark/unnamed-chunk-7-1.png)
 
 Skin extracts consisted of 79 alkaloids. The summed amount of alkaloids
 varied across species and populations (Kruskal-Wallis; X2(5) = 41.542, p
-\< 0.001; <a href="#fig-2" class="quarto-xref">Figure 2</a> A), with *O.
+\< 0.001; [Figure 2](#fig-2)A, with *O.
 sylvatica* having more alkaloids than *H. infraguttatus* (*H.
 infraguttatus vs. all other O. sylvatica populations*, p \< 0.001;
 <a href="#tbl-1" class="quarto-xref">Table 1</a>). Within *O.
@@ -1038,12 +1024,8 @@ T1 <- pwise.test %>%
 T1
 ```
 
-<div id="tbl-1">
-
 Table 1: P-values of pairwise Wilcoxon test on differences in summed
 alkaloids between frog populations
-
-<div class="cell-output-display">
 
 |                  | Ceiba   | C. colón | P. Quito | S. Domingo | La Maná |
 |:-----------------|:--------|:---------|:---------|:-----------|:--------|
@@ -1053,19 +1035,8 @@ alkaloids between frog populations
 | La Maná          | 0.002   | 0.087    | 0.017    | 0.001      | \-      |
 | H. infraguttatus | \<0.001 | \<0.001  | \<0.001  | \<0.001    | \<0.001 |
 
-</div>
-
-</div>
-
-<a
-href="https://drive.google.com/open?id=1M1z2h2whc_-izPeJOMjDzu4XLhZP1gLt&amp;usp=drive_fs"
-class="external" target="_blank">Table 1</a>
-
-<div id="fig-2">
-
-<img
-src="8_Nora-s_analyses_100625_Rev_files/figure-commonmark/fig-2-1.png"
-data-fig-align="center" />
+<a id="fig-2"></a>
+![Figure 2](Fig2.png)
 
 Figure 2: **Alkaloid profiles differ between *Oophaga sylvatica*
 populations.** **(A)** The summed relative abundances of 79 alkaloids
@@ -1090,27 +1061,22 @@ pyrrolizidine (3,5-P); Lehmizidine (Lehm); 1,4-disubstituted
 quinolizidine (1,4-Q); Piperidine (Pip); Pumiliotoxin (PTX);
 Allopumilliotoxin (aPTX); 4,6-disubstituted quinolizidine (4,6-Q).
 
-</div>
-
-<a
-href="https://drive.google.com/open?id=1wVHeGUraM4OIw7SmkQ0PHNPpPkhignve&amp;usp=drive_fs"
-class="external" target="_blank">Figure 2.png</a>
 
 We next visualized overall alkaloid compositional differences across *O.
 sylvatica* populations and *H. infraguttatus* using an NMDS
-(<a href="#fig-2" class="quarto-xref">Figure 2</a> B). The NMDS
+([Figure 2](#fig-2)B). The NMDS
 suggested a two dimensional solution (stress = 0.156) and showed
 distinct clusters of alkaloid composition. The abundance of all 79
 alkaloids varied significantly across groups (PERMANOVA, F(4) = 10.178,
 p \< 0.001). A post-hoc pairwise comparison indicated significant
 differences between all possible population pairs
 (<a href="#tbl-2" class="quarto-xref">Table 2</a>;
-<a href="#fig-2" class="quarto-xref">Figure 2</a> B), suggesting each
+[Figure 2](#fig-2)B), suggesting each
 group has a unique alkaloid profile. Fitting environmental variables
 into the NMDS indicated that altitude (r² = 0.72, p = 0.001) and
 temperature (r² = 0.68, p = 0.001) significantly influenced alkaloid
 composition across the geographical gradient
-(<a href="#fig-2" class="quarto-xref">Figure 2</a> B). Given their
+([Figure 2](#fig-2)B). Given their
 strong inverse correlation and closely aligned vectors in NMDS space, we
 report both as reflecting a shared environmental gradient.
 
@@ -1125,11 +1091,11 @@ Histrionicotoxins (HTX); 5,8-disubstituted indolizidines (5,8-I);
 decahydroquinolines and indolizidines were the most abundant alkaloid
 classes relative to the total alkaloid content in both H. infraguttatus
 and all O. sylvatica populations sampled
-(<a href="#fig-2" class="quarto-xref">Figure 2</a> C). Several
+([Figure 2](#fig-2)C). Several
 indolizidines, including 5,6,8-I (r² = 0.54, p = 0.001), 5,8-I (r² =
 0.54, p = 0.001) & 3,5-I (r² = 0.46, p = 0.001) contributed
 significantly to alkaloid ordination
-(<a href="#fig-2" class="quarto-xref">Figure 2</a> B).
+([Figure 2](#fig-2) B).
 
 ``` r
 colnames(pair.mod) <- c("Contrasts", "df", "Sums of sq.", "F", 
@@ -1160,8 +1126,6 @@ T2
 Table 2: Summary of the results of pairwise comparisons of a PERMANOVA
 in alkaloid composition between *O. sylvatica* populations
 
-<div class="cell-output-display">
-
 | Contrasts                       |  df |         F |        R2 | p.adjusted |
 |:--------------------------------|----:|----------:|----------:|-----------:|
 | La Maná vs. Ceiba               |   1 |  8.187100 | 0.3250513 |      0.001 |
@@ -1180,13 +1144,6 @@ in alkaloid composition between *O. sylvatica* populations
 | S. Domingo vs. H. infraguttatus |   1 | 25.879752 | 0.6035425 |      0.001 |
 | P. Quito vs. H. infraguttatus   |   1 | 20.149972 | 0.5281779 |      0.001 |
 
-</div>
-
-</div>
-
-<a
-href="https://drive.google.com/open?id=1SeyK8a8lDdn4KqyvY4ouAEG3wtJsgJ7R&amp;usp=drive_fs"
-class="external" target="_blank">Table 2</a>
 
 ``` r
 #Boxplots 
@@ -1475,15 +1432,8 @@ species and prey items. P-values were adjusted using Tukey’s method
 | Ants vs. Mites   |  0.8681086 |    0.5176561 | \>0.05  |
 | Ants vs. Other   |  0.3110224 |    0.4773916 | \>0.05  |
 
-</div>
 
-</div>
-
-<a
-href="https://drive.google.com/open?id=1trtw6COpQQkHGcUJHPf9u9sUhg3xbkvl&amp;usp=drive_fs"
-class="external" target="_blank">Table 3</a>
-
-\##Frogs’ alkaloid composition suggests a predominantly ant-based diet
+## Frogs’ alkaloid composition suggests a predominantly ant-based diet
 
 We found that across all frog populations, including the “non-toxic”
 species H. infraguttatus, ant-derived alkaloids appeared to represent
@@ -1639,9 +1589,9 @@ H.infra <- H.infra[c("Both", "Mites", "Ants"), c("HTX", "DHQ", "Lehm", "3,5-P",
 ch_inf <- chordDiagram(H.infra, grid.col = colors)
 ```
 
-<div id="fig-3">
+<a id="fig-3"></a>
 
-![](8_Nora-s_analyses_100625_Rev_files/figure-commonmark/fig-3-1.png)
+![Figure 3](Fig3.png)
 
 Figure 3: **Diet differs between frog species and across diablito frog
 populations.** **(A)** Chord diagram showing a bipartite network of the
@@ -1666,11 +1616,6 @@ Lehmizidine (Lehm); 1,4-disubstituted quinolizidine (1,4-Q); Piperidine
 (Pip); Pumiliotoxin (PTX); Allopumilliotoxin (aPTX); 4,6-disubstituted
 quinolizidine (4,6-Q).
 
-</div>
-
-<a
-href="https://drive.google.com/open?id=14ED_0IzafS-Y691-62tPJ6Qijto7JwnM&amp;usp=drive_fs"
-class="external" target="_blank">Figure 3.png</a>
 
 ``` r
 T4 <- diet %>% 
@@ -1706,7 +1651,6 @@ T4
 Table 4: Summary of the results of pairwise correlations between each
 alkaloid class and ant & mite abundance.
 
-<div class="cell-output-display">
 
 | correlations |      lower |          r |     upper |         p |
 |:-------------|-----------:|-----------:|----------:|----------:|
@@ -1740,13 +1684,6 @@ alkaloid class and ant & mite abundance.
 | mites-Pyr    | -0.3642577 | -0.1193041 | 0.1410887 | 0.3681175 |
 | mites-total  | -0.3935714 | -0.1528994 | 0.1073876 | 0.2476292 |
 
-</div>
-
-</div>
-
-<a
-href="https://drive.google.com/open?id=1IIhI3pdMJwoLEyqgEI7zKh4PeCCdKZ7R&amp;usp=drive_fs"
-class="external" target="_blank">Table 4</a>
 
 ## Alkaloid diversity among sites is associated with variation in leaf litter ant communities
 
@@ -1906,9 +1843,9 @@ fig4c <- ant_all %>%
         legend.text.position = "right")
 ```
 
-<div id="fig-4">
+<a id="fig-4"></a>
 
-![](8_Nora-s_analyses_100625_Rev_files/figure-commonmark/fig-4-1.png)
+![Figure 4](Fig4.png)
 
 Figure 4: **Ant community composition varies across localities.**
 **(A)** Non-metric multidimensional scaling (NMDS) biplot based on
@@ -1927,11 +1864,6 @@ alignment between the ordinations, suggesting stronger correspondence.
 sampled using a trap placed next to the corresponding frog’s capture
 site.
 
-</div>
-
-<a
-href="https://drive.google.com/open?id=16c7Gr7NC2oDNSFNwXgQKZ6Zpk6mkSrXo&amp;usp=drive_fs"
-class="external" target="_blank">Figure 4.png</a>
 
 ``` r
 colnames(pair.per.ants) <- c("Contrasts", "df", "Sums of sq.", "F", 
@@ -1957,7 +1889,6 @@ T5
 Table 5: Summary of the results of pairwise comparisons of a PERMANOVA
 in leaf litter ant composition between study sites
 
-<div class="cell-output-display">
 
 | Contrasts               |  df |        F |        R2 | p.adjusted |
 |:------------------------|----:|---------:|----------:|-----------:|
@@ -1968,13 +1899,6 @@ in leaf litter ant composition between study sites
 | C. Colón vs. P. Quito   |   1 | 4.059141 | 0.1227842 |     0.0036 |
 | S. Domingo vs. P. Quito |   1 | 5.911084 | 0.1852361 |     0.0020 |
 
-</div>
-
-</div>
-
-<a
-href="https://drive.google.com/open?id=1KPDjtI3U1hgZR0g7i_-C4SH8ma9fXDmU&amp;usp=drive_fs"
-class="external" target="_blank">Table 5</a>
 
 ## Frogs show different dietary selectivity for particular ant genera
 
@@ -2034,9 +1958,9 @@ f5b <- ggplot() +
 #ggsave("Fig4b.svg", f4b, units = "cm", width = 20, height = 7)
 ```
 
-<div id="fig-5">
+<a id="fig-5"></a>
 
-![](8_Nora-s_analyses_100625_Rev_files/figure-commonmark/fig-5-1.png)
+![Figure 5](Fig5.png)
 
 Figure 5: **Relative abundance and selectivity for ant genera differs
 across localities. **(A)\*\* Boxplot showing differences across
@@ -2051,11 +1975,6 @@ distribution (red dots), ‘neutral’ if they are within (black dots), and
 ‘selected’ if the values are above (blue dots). Blue arrows indicate
 overall selected ant genera.
 
-</div>
-
-<a
-href="https://drive.google.com/open?id=11sziDPGX2wcmDQwgszWA2hlAB6Xfy6G4&amp;usp=drive_fs"
-class="external" target="_blank">Figure 5.png</a>
 
 On the other hand, The remaining ants were either not selected or
 occasionally consumed (<a href="#fig-5" class="quarto-xref">Figure 5</a>
@@ -2091,7 +2010,10 @@ T6
 
 <div id="tbl-6">
 
-<div class="cell-output-display">
+Table 6: Summary of the results of pairwise comparisons of a Negative
+Binomial regresion comparing ant abundance between *O. sylvatica*
+populations. P-values were adjusted using Tukey’s method
+
 
 | Contrasts | estimate | SE | p.value |
 |:---|---:|---:|---:|
@@ -2101,17 +2023,6 @@ T6
 | frog La Maná vs. leaf La Maná | -0.6676277 | 0.2591927 | 0.2613626 |
 | frog H. infraguttatus vs. leaf H. infraguttatus | -1.0843438 | 0.2624534 | 0.0017938 |
 
-</div>
-
-Table 6: Summary of the results of pairwise comparisons of a Negative
-Binomial regresion comparing ant abundance between *O. sylvatica*
-populations. P-values were adjusted using Tukey’s method
-
-</div>
-
-<a
-href="https://drive.google.com/open?id=1AfF9pDct9Lp07jet2-isSY0DEzimVNhU&amp;usp=drive_fs"
-class="external" target="_blank">Table 6</a>
 
 ## Ant morphology influences prey selectivity in frogs
 
@@ -2200,9 +2111,10 @@ fig6b <- elect.morph %>%
                      axis.text.x = NULL, legend.position = "none")
 ```
 
-<div id="fig-6">
+<a id="fig-6"></a>
 
-![](8_Nora-s_analyses_100625_Rev_files/figure-commonmark/fig-6-1.png)
+![Figure 6](Fig6.png)
+
 
 Figure 6: **Boxplots showing differences between categorical selectivity
 in principal component scores on 17 ant traits. **(A)\*\* First
@@ -2216,11 +2128,6 @@ score values depict *spiny* ants, whule low score values depict
 *non-spiny* ants. Groups not connected by the same letter are
 significantly different.
 
-</div>
-
-<a
-href="https://drive.google.com/open?id=1NVyqYOm7dRriJJjuLjcLpJaAfwLackCe&amp;usp=drive_fs"
-class="external" target="_blank">Figure 6.png</a>
 
 ``` r
 # Pairwise comparisons between linear selectivity categories in the principal components
@@ -2248,23 +2155,16 @@ T7
 
 <div id="tbl-7">
 
-<div class="cell-output-display">
+Table 7: P-values of pairwise Wilcoxon test on differences in principal
+components between linear selectivity categories
+
 
 |         |  selected |   neutral |  selected |   neutral |  selected |  neutral |
 |:--------|----------:|----------:|----------:|----------:|----------:|---------:|
 | neutral | 0.0252217 |        \- | 0.9905289 |        \- | 0.2814407 |       \- |
 | avoid   | 0.2460269 | 0.2460269 | 0.1281269 | 0.1281269 | 0.5484877 | 0.247312 |
 
-</div>
 
-Table 7: P-values of pairwise Wilcoxon test on differences in principal
-components between linear selectivity categories
-
-</div>
-
-<a
-href="https://drive.google.com/open?id=1AgB7Iy1LzU7pMCsjxp_lNTg1VneUEBm-&amp;usp=drive_fs"
-class="external" target="_blank">Table 7</a>
 
 # Discussion
 
