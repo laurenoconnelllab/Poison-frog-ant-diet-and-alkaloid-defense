@@ -14,8 +14,6 @@ _site/
 
 # Large data
 *.tif
-*.csv
-*.xlsx
 *.psd
 *.ai
 

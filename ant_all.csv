@@ -1,0 +1,768 @@
+SITE,TRAP,no_Trap,GENERA,SPECIES,#,latitude,longitude,altitude
+La Ceiba,Pitfall,w9,Carebara,Carebara urichi,1,1.13,-78.65616,207
+La Ceiba,Pitfall,w17,Pheidole,Pheidole EC27,1,1.12504,-78.66,207
+La Ceiba,Pitfall,w17,Ectatomma,Ectatomma edentatum,2,1.12504,-78.65616,207
+La Ceiba,Pitfall,w17,Pheidole,Pheidole EC18,2,1.12504,-78.65616,207
+La Ceiba,Pitfall,w17,Sericomyrmex,Sericomyrmex ACZ3424,7,1.12504,-78.65616,207
+La Ceiba,Pitfall,w17,Pheidole,Pheidole EC20,7,1.12504,-78.65616,207
+La Ceiba,Pitfall,w1,Pheidole,Pheidole EC01,3,1.12504,-78.65616,207
+La Ceiba,Pitfall,w1,Cyphomyrmex,Cyphomyrmex ACZ4807,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w11,Pheidole,Pheidole sp1,3,1.12504,-78.65616,207
+La Ceiba,Pitfall,w11,Pheidole,Pheidole EC04,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w12,Wasmannia,Wasmannia auropunctata,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w12,Ectatomma,Ectatomma edentatum,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w12,Rasopone,Rasopone bicculata,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w13,Pheidole,Pheidole glomericeps,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w15,Pheidole,Pheidole EC18,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w15,Pheidole,Pheidole EC17,3,1.12504,-78.65616,207
+La Ceiba,Pitfall,w14,Pheidole,Pheidole ACY2076,2,1.12504,-78.65616,207
+La Ceiba,Pitfall,w14,Pachycondyla,Pachycondyla harpax,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w14,Nylanderia,Nylanderia EC25,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w16,Nylanderia,Nylanderia EC13,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w16,Pheidole,Pheidole EC13,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w16,Solenopsis,Solenopsis sp6,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w19,Pachycondyla,Pachycondyla crassinoda,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w19,Brachymyrmex,Brachymyrmex EC01,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w19,Pheidole,Pheidole ulothrix,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w19,Ectatomma,Ectatomma edentatum,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w6,Odontomachus,Odontomachus bauri,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w6,Crematogaster,Crematogaster ADH0111,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w6,Ectatomma,Ectatomma edentatum,3,1.12504,-78.65616,207
+La Ceiba,Pitfall,w6,Nylanderia,Nylanderia EC13,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w6,Pheidole,Pheidole glomericeps,2,1.12504,-78.65616,207
+La Ceiba,Pitfall,w18,Pachycondyla,Pachycondyla harpax,2,1.12504,-78.65616,207
+La Ceiba,Pitfall,w18,Odontomachus,Odontomachus bauri,35,1.12504,-78.65616,207
+La Ceiba,Pitfall,w18,Pheidole,Pheidole EC26,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w18,Wasmannia,Wasmannia auropunctata,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w3,Trachymyrmex,Trachymyrmex EC02,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w3,Solenopsis,Solenopsis sp4,3,1.12504,-78.65616,207
+La Ceiba,Pitfall,w3,Wasmannia,Wasmannia auropunctata,4,1.12504,-78.65616,207
+La Ceiba,Pitfall,w7,Odontomachus,Odontomachus bauri,4,1.12504,-78.65616,207
+La Ceiba,Pitfall,w7,Anochetus,Anochetus targionii,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w7,Nylanderia,Nylanderia EC13,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w7,Pheidole,Pheidole glomericeps,2,1.12504,-78.65616,207
+La Ceiba,Pitfall,w7,Pheidole,Pheidole ACY2076,2,1.12504,-78.65616,207
+La Ceiba,Pitfall,w7,Carebara,Carebara urichi,3,1.12504,-78.65616,207
+La Ceiba,Pitfall,w7,Solenopsis,Solenopsis sp4,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w10,Ectatomma,Ectatomma edentatum,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w5,Odontomachus,Odontomachus bauri,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w5,Pheidole,Pheidole ACY2076,1,1.12504,-78.65616,207
+La Ceiba,Pitfall,w5,Carebara,Carebara urichi,2,1.12504,-78.65616,207
+Puerto Quito,Winkler,w76,Ectatomma,Ectatomma ruidum,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w76,Rogeria,Rogeria EC02,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w76,Strumigenys,Strumigenys EC09,12,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w76,Strumigenys,Strumigenys EC09,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w76,Wasmannia,Wasmannia auropunctata,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w76,Solenopsis,Solenopsis sp4,5,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w76,Pheidole,Pheidole ACY2076,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w62,Pachycondyla,Pachycondyla harpax,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w62,Strumigenys,Strumigenys EC05,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w62,Wasmannia,Wasmannia auropunctata,7,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w62,Pheidole,Pheidole glomericeps,14,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w62,Solenopsis,Solenopsis sp4,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w62,Nylanderia,Nylanderia EC13,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w69,Apterostigma,Apterostigma ADG9117,4,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w69,Hypoponera,Hypoponera EC12,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w69,Lenomyrmex,Lenomyrmex foveolatus,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w69,Acanthognathus,Acanthognathus teledectus,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w69,Strumigenys,Strumigenys EC09,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w69,Octostruma,Octostruma amrishi,5,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w69,Nylanderia,Nylanderia EC13,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w69,Rogeria,Rogeria EC02,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w69,Pheidole,Pheidole glomericeps,13,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w69,Wasmannia,Wasmannia auropunctata,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w69,Solenopsis,Solenopsis sp5,6,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w66,Pachycondyla,Pachycondyla harpax,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w66,Nylanderia,Nylanderia EC13,21,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w66,Pheidole,Pheidole EC26,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w66,Rogeria,Rogeria blanda,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w66,Solenopsis,Solenopsis sp4,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w66,Strumigenys,Strumigenys EC13,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w68,Nylanderia,Nylanderia EC25,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w68,Pheidole,Pheidole ACY2076,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w68,Solenopsis,Solenopsis sp5,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w68,Tranopelta,Tranopelta gilva,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w71,Odontomachus,Odontomachus meinerti,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w71,Ectatomma,Ectatomma ruidum,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w71,Nylanderia,Nylanderia EC25,17,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w71,Hypoponera,Hypoponera EC05,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w71,Octostruma,Octostruma betschi,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w71,Strumigenys,Strumigenys EC13,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w71,Pheidole,Pheidole glomericeps,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w71,Wasmannia,Wasmannia auropunctata,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w71,Solenopsis,Solenopsis sp5,4,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w67,Gnamptogenys,Gnamptogenys perpicax,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w67,Hypoponera,Hypoponera EC05,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w67,Nylanderia,Nylanderia EC13,29,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w67,Pheidole,Pheidole glomericeps,12,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w67,Rogeria,Rogeria EC02,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w67,Solenopsis,Solenopsis sp5,4,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w67,Strumigenys,Strumigenys EC13,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w67,Octostruma,Octostruma amrishi,4,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w70,Nylanderia,Nylanderia EC13,4,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w70,Octostruma,Octostruma amrishi,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w70,Hypoponera,Hypoponera AAP3371,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w70,Prionopelta,Prionopelta amabilis,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w70,Strumigenys,Strumigenys EC09,4,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w70,Rogeria,Rogeria EC02,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w70,Pheidole,Pheidole ACY2076,4,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w70,Solenopsis,Solenopsis sp1,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w70,Wasmannia,Wasmannia auropunctata,67,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w63,Pheidole,Pheidole EC27,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w63,Pheidole,Pheidole glomericeps,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w63,Solenopsis,Solenopsis sp4,10,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w63,Strumigenys,Strumigenys EC09,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w77,Hypoponera,Hypoponera ADH2973,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w77,Strumigenys,Strumigenys EC13,6,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w77,Solenopsis,Solenopsis sp4,16,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w77,Pheidole,Pheidole glomericeps,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w77,Pheidole,Pheidole glomericeps,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w77,Pheidole,Pheidole EC27,13,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w77,Pheidole,Pheidole EC14,4,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w77,Nylanderia,Nylanderia EC25,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w77,Octostruma,Octostruma amrishi,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w74,Apterostigma,Apterostigma ADG8841,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w74,Hypoponera,Hypoponera EC12,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w74,Prionopelta,Prionopelta amabilis,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w74,Rogeria,Rogeria EC02,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w74,Octostruma,Octostruma betschi,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w74,Nylanderia,Nylanderia EC13,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w74,Pheidole,Pheidole ACY2151,34,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w74,Strumigenys,Strumigenys EC13,6,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w74,Pheidole,Pheidole glomericeps,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w74,Pheidole,Pheidole glomericeps,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w74,Carebara,Carebara EC01,19,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w74,Wasmannia,Wasmannia auropunctata,74,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w74,Brachymyrmex,Brachymyrmex EC01,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w73,Pachycondyla,Pachycondyla harpax,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w73,Nylanderia,Nylanderia EC13,6,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w73,Prionopelta,Prionopelta amabilis,8,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w73,Octostruma,Octostruma amrishi,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w73,Strumigenys,Strumigenys EC05,7,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w73,Megalomyrmex,Megalomyrmex silvestrii,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w73,Hypoponera,Hypoponera AAP3371,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w73,Hypoponera,Hypoponera EC05,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w73,Hypoponera,Hypoponera EC05,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w73,Pheidole,Pheidole glomericeps,5,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w73,Solenopsis,Solenopsis sp4,10,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w73,Rhopalothrix,Rhopalothrix EC01,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w73,Wasmannia,Wasmannia auropunctata,10,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w68,Nylanderia,Nylanderia EC13,28,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w68,Hypoponera,Hypoponera EC07,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w68,Pheidole,Pheidole glomericeps,4,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w68,Strumigenys,Strumigenys EC09,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w68,Solenopsis,Solenopsis sp1,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Ectatomma,Ectatomma ruidum,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Acanthognathus,Acanthognathus teledectus,5,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Strumigenys,Strumigenys EC13,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Strumigenys,Strumigenys EC09,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Nylanderia,Nylanderia EC13,8,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Pheidole,Pheidole ACY2668,8,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Pheidole,Pheidole sp1,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Pheidole,Pheidole ACY2076,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Solenopsis,Solenopsis sp5,9,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Octostruma,Octostruma amrishi,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Rogeria,Rogeria EC02,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Lenomyrmex,Lenomyrmex foveolatus,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Megalomyrmex,Megalomyrmex silvestrii,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Pheidole,Pheidole sp1,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w61,Lenomyrmex,Lenomyrmex foveolatus,5,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w61,Rogeria,Rogeria blanda,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w61,Adelomyrmex,Adelomyrmex EC01,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w61,Nylanderia,Nylanderia EC13,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w61,Strumigenys,Strumigenys EC13,6,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w61,Rogeria,Rogeria EC02,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w61,Wasmannia,Wasmannia auropunctata,113,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w61,Pheidole,Pheidole EC67,4,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w61,Solenopsis,Solenopsis sp4,4,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w80,Nylanderia,Nylanderia EC13,12,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w80,Hypoponera,Hypoponera EC12,11,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w80,Lachnomyrmex,Lachnomyrmex EC01,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w80,Lachnomyrmex,Lachnomyrmex EC01,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w80,Octostruma,Octostruma amrishi,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w80,Wasmannia,Wasmannia auropunctata,9,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w80,Solenopsis,Solenopsis sp5,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w80,Pheidole,Pheidole EC67,7,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w80,Strumigenys,Strumigenys EC13,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w80,Adelomyrmex,Adelomyrmex EC01,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w79,Octostruma,Octostruma amrishi,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w79,Pheidole,Pheidole ACY2076,5,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w79,Solenopsis,Solenopsis sp5,6,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w79,Wasmannia,Wasmannia auropunctata,12,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Lenomyrmex,Lenomyrmex foveolatus,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Solenopsis,Solenopsis sp4,3,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w78,Wasmannia,Wasmannia auropunctata,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w64,Hypoponera,Hypoponera EC12,4,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w64,Cyphomyrmex,Cyphomyrmex EC10,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w64,Rogeria,Rogeria EC02,2,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w64,Solenopsis,Solenopsis sp4,9,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w72,Hypoponera,Hypoponera EC12,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w72,Cyphomyrmex,Cyphomyrmex EC02,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w72,Cyphomyrmex,Cyphomyrmex ACZ4807,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w72,Pheidole,Pheidole ACY2151,8,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w72,Octostruma,Octostruma amrishi,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w72,Wasmannia,Wasmannia auropunctata,1,0.110139505,-79.16688026,350
+Puerto Quito,Winkler,w72,Solenopsis,Solenopsis sp4,1,0.110139505,-79.16688026,350
+Mana,Pitfall,p18,Pachycondyla,Pachycondyla harpax,2,-0.82733,-79.18499,480
+Mana,Pitfall,p9,Ectatomma,Ectatomma ruidum,23,-0.82733,-79.18499,480
+Mana,Pitfall,p9,Neoponera,Neoponera verenae,1,-0.82733,-79.18499,480
+Mana,Pitfall,p6,Ectatomma,Ectatomma edentatum,6,-0.82733,-79.18499,480
+Mana,Pitfall,p6,Neoponera,Neoponera verenae,1,-0.82733,-79.18499,480
+Mana,Pitfall,p8,Ectatomma,Ectatomma ruidum,1,-0.82733,-79.18499,480
+Mana,Pitfall,p5,Ectatomma,Ectatomma ruidum,1,-0.82733,-79.18499,480
+Mana,Pitfall,p11,Pachycondyla,Pachycondyla harpax,3,-0.82733,-79.18499,480
+Mana,Pitfall,p11,Ectatomma,Ectatomma ruidum,7,-0.82733,-79.18499,480
+Mana,Pitfall,p20,Atta,Atta EC01 cephalotes,53,-0.82733,-79.18499,480
+Mana,Pitfall,p20,Pachycondyla,Pachycondyla harpax,1,-0.82733,-79.18499,480
+Mana,Pitfall,p20,Gnamptogenys,Gnamptogenys annulata,1,-0.82733,-79.18499,480
+Mana,Pitfall,p13,Ectatomma,Ectatomma ruidum,8,-0.82733,-79.18499,480
+Mana,Pitfall,p14,Ectatomma,Ectatomma ruidum,52,-0.82733,-79.18499,480
+Mana,Pitfall,p14,Atta,Atta EC01 cephalotes,12,-0.82733,-79.18499,480
+Mana,Pitfall,p14,Gnamptogenys,Gnamptogenys horni,3,-0.82733,-79.18499,480
+Mana,Pitfall,p15,Ectatomma,Ectatomma ruidum,6,-0.82733,-79.18499,480
+Mana,Pitfall,p15,Neoponera,Neoponera verenae,2,-0.82733,-79.18499,480
+Mana,Pitfall,p15,Sericomyrmex,Sericomyrmex ACZ3424,2,-0.82733,-79.18499,480
+Mana,Pitfall,p7,Nylanderia,Nylanderia EC08,1,-0.82733,-79.18499,480
+Mana,Pitfall,p17,Ectatomma,Ectatomma ruidum,1,-0.82733,-79.18499,480
+Mana,Pitfall,p17,Gnamptogenys,Gnamptogenys annulata,2,-0.82733,-79.18499,480
+Mana,Pitfall,p13,Nylanderia,Nylanderia EC25,1,-0.82733,-79.18499,480
+Mana,Pitfall,p1,Ectatomma,Ectatomma edentatum,4,-0.82733,-79.18499,480
+Mana,Pitfall,p16,Ectatomma,Ectatomma ruidum,4,-0.82733,-79.18499,480
+Mana,Pitfall,p2,Ectatomma,Ectatomma ruidum,1,-0.82733,-79.18499,480
+Mana,Pitfall,p10,Ectatomma,Ectatomma ruidum,2,-0.82733,-79.18499,480
+Mana,Pitfall,p10,Nylanderia,Nylanderia EC13,1,-0.82733,-79.18499,480
+Mana,Pitfall,p4,Ectatomma,Ectatomma ruidum,2,-0.82733,-79.18499,480
+Mana,Pitfall,p4,Pachycondyla,Pachycondyla harpax,1,-0.82733,-79.18499,480
+Mana,Pitfall,p3,Carebara,Carebara urichi,3,-0.82733,-79.18499,480
+Mana,Pitfall,p19,Ectatomma,Ectatomma ruidum,2,-0.82733,-79.18499,480
+Mana,Pitfall,p19,Pachycondyla,Pachycondyla harpax,1,-0.82733,-79.18499,480
+Mana,Pitfall,p19,Wasmannia,Wasmannia auropunctata,1,-0.82733,-79.18499,480
+Mana,Winkler,w20,Gnamptogenys,Gnamptogenys annulata,1,-0.82733,-79.18499,480
+Mana,Winkler,w20,Ectatomma,Ectatomma ruidum,1,-0.82733,-79.18499,480
+Mana,Winkler,w20,Pheidole,Pheidole glomericeps,11,-0.82733,-79.18499,480
+Mana,Winkler,w20,Octostruma,Octostruma amrishi,3,-0.82733,-79.18499,480
+Mana,Winkler,w20,Rogeria,Rogeria EC02,1,-0.82733,-79.18499,480
+Mana,Winkler,w20,Solenopsis,Solenopsis sp4,3,-0.82733,-79.18499,480
+Mana,Winkler,w14,Gnamptogenys,Gnamptogenys striatula,1,-0.82733,-79.18499,480
+Mana,Winkler,w14,Hypoponera,Hypoponera EC04,2,-0.82733,-79.18499,480
+Mana,Winkler,w14,Crematogaster,Crematogaster nigropilosa,1,-0.82733,-79.18499,480
+Mana,Winkler,w14,Rogeria,Rogeria EC02,1,-0.82733,-79.18499,480
+Mana,Winkler,w14,Strumigenys,Strumigenys EC09,1,-0.82733,-79.18499,480
+Mana,Winkler,w14,Octostruma,Octostruma amrishi,1,-0.82733,-79.18499,480
+Mana,Winkler,w14,Pheidole,Pheidole glomericeps,3,-0.82733,-79.18499,480
+Mana,Winkler,w14,Pheidole,Pheidole EC27,2,-0.82733,-79.18499,480
+Mana,Winkler,w14,Pheidole,Pheidole EC67,7,-0.82733,-79.18499,480
+Mana,Winkler,w0,Gnamptogenys,Gnamptogenys annulata,1,-0.82733,-79.18499,480
+Mana,Winkler,w0,Lenomyrmex,Lenomyrmex foveolatus,1,-0.82733,-79.18499,480
+Mana,Winkler,w0,Apterostigma,Apterostigma ADG9117,1,-0.82733,-79.18499,480
+Mana,Winkler,w0,Nylanderia,Nylanderia EC13,1,-0.82733,-79.18499,480
+Mana,Winkler,w0,Pheidole,Pheidole glomericeps,3,-0.82733,-79.18499,480
+Mana,Winkler,w0,Solenopsis,Solenopsis sp4,15,-0.82733,-79.18499,480
+Mana,Winkler,w0,Wasmannia,Wasmannia auropunctata,17,-0.82733,-79.18499,480
+Mana,Winkler,w0,Strumigenys,Strumigenys EC09,1,-0.82733,-79.18499,480
+Mana,Winkler,w10,Sericomyrmex,Sericomyrmex ACZ3424,3,-0.82733,-79.18499,480
+Mana,Winkler,w10,Hypoponera,Hypoponera ADG8682,1,-0.82733,-79.18499,480
+Mana,Winkler,w10,Pheidole,Pheidole EC09,1,-0.82733,-79.18499,480
+Mana,Winkler,w10,Pachycondyla,Pachycondyla harpax,1,-0.82733,-79.18499,480
+Mana,Winkler,w12,Strumigenys,Strumigenys gundlachi,4,-0.82733,-79.18499,480
+Mana,Winkler,w12,Pheidole,Pheidole glomericeps,3,-0.82733,-79.18499,480
+Mana,Winkler,w12,Solenopsis,Solenopsis black,11,-0.82733,-79.18499,480
+Mana,Winkler,w12,Nylanderia,Nylanderia EC13,10,-0.82733,-79.18499,480
+Mana,Winkler,w12,Crematogaster,Crematogaster nigropilosa,1,-0.82733,-79.18499,480
+Mana,Winkler,w13,Ectatomma,Ectatomma edentatum,1,-0.82733,-79.18499,480
+Mana,Winkler,w13,Pachycondyla,Pachycondyla harpax,1,-0.82733,-79.18499,480
+Mana,Winkler,w13,Hypoponera,Hypoponera ADH2973,1,-0.82733,-79.18499,480
+Mana,Winkler,w13,Cryptopone,Cryptopone gilva,1,-0.82733,-79.18499,480
+Mana,Winkler,w13,Pheidole,Pheidole glomericeps,6,-0.82733,-79.18499,480
+Mana,Winkler,w13,Solenopsis,Solenopsis sp4,2,-0.82733,-79.18499,480
+Mana,Winkler,w18,Nylanderia,Nylanderia EC13,1,-0.82733,-79.18499,480
+Mana,Winkler,w18,Octostruma,Octostruma amrishi,1,-0.82733,-79.18499,480
+Mana,Winkler,w18,Strumigenys,Strumigenys EC09,2,-0.82733,-79.18499,480
+Mana,Winkler,w18,Solenopsis,Solenopsis sp4,4,-0.82733,-79.18499,480
+Mana,Winkler,w18,Pheidole,Pheidole glomericeps,2,-0.82733,-79.18499,480
+Mana,Winkler,w18,Wasmannia,Wasmannia auropunctata,1,-0.82733,-79.18499,480
+Mana,Winkler,w18,Brachymyrmex,Brachymyrmex EC01,4,-0.82733,-79.18499,480
+Mana,Winkler,w15,Ectatomma,Ectatomma ruidum,1,-0.82733,-79.18499,480
+Mana,Winkler,w15,Nylanderia,Nylanderia EC13,7,-0.82733,-79.18499,480
+Mana,Winkler,w15,Pheidole,Pheidole ADG9130,7,-0.82733,-79.18499,480
+Mana,Winkler,w15,Pheidole,Pheidole glomericeps,3,-0.82733,-79.18499,480
+Mana,Winkler,w19,Ectatomma,Ectatomma ruidum,1,-0.82733,-79.18499,480
+Mana,Winkler,w19,Rogeria,Rogeria EC02,5,-0.82733,-79.18499,480
+Mana,Winkler,w19,Gnamptogenys,Gnamptogenys striatula,1,-0.82733,-79.18499,480
+Mana,Winkler,w19,Tapinoma,Tapinoma EC01,1,-0.82733,-79.18499,480
+Mana,Winkler,w19,Strumigenys,Strumigenys EC13,1,-0.82733,-79.18499,480
+Mana,Winkler,w19,Rogeria,Rogeria EC02,3,-0.82733,-79.18499,480
+Mana,Winkler,w19,Solenopsis,Solenopsis sp4,5,-0.82733,-79.18499,480
+Mana,Winkler,w6,Hypoponera,Hypoponera EC12,1,-0.82733,-79.18499,480
+Mana,Winkler,w6,Pheidole,Pheidole EC13,1,-0.82733,-79.18499,480
+Mana,Winkler,w6,Wasmannia,Wasmannia auropunctata,2,-0.82733,-79.18499,480
+Mana,Winkler,w7,Lenomyrmex,Lenomyrmex foveolatus,2,-0.82733,-79.18499,480
+Mana,Winkler,w7,Apterostigma,Apterostigma EC02,9,-0.82733,-79.18499,480
+Mana,Winkler,w7,Strumigenys,Strumigenys EC09,1,-0.82733,-79.18499,480
+Mana,Winkler,w7,Pheidole,Pheidole glomericeps,6,-0.82733,-79.18499,480
+Mana,Winkler,w7,Solenopsis,Solenopsis sp4,2,-0.82733,-79.18499,480
+Mana,Winkler,w8,Pheidole,Pheidole EC29,1,-0.82733,-79.18499,480
+Mana,Winkler,w16,Pachycondyla,Pachycondyla harpax,1,-0.82733,-79.18499,480
+Mana,Winkler,w16,Ectatomma,Ectatomma ruidum,1,-0.82733,-79.18499,480
+Mana,Winkler,w16,Tranopelta,Tranopelta gilva,2,-0.82733,-79.18499,480
+Mana,Winkler,w16,Solenopsis,Solenopsis sp4,4,-0.82733,-79.18499,480
+Mana,Winkler,w16,Carebara,Carebara urichi,1,-0.82733,-79.18499,480
+Mana,Winkler,w16,Wasmannia,Wasmannia auropunctata,2,-0.82733,-79.18499,480
+Mana,Winkler,w17,Strumigenys,Strumigenys EC19,2,-0.82733,-79.18499,480
+Mana,Winkler,w17,Cyphomyrmex,Cyphomyrmex EC10,1,-0.82733,-79.18499,480
+Mana,Winkler,w17,Wasmannia,Wasmannia auropunctata,2,-0.82733,-79.18499,480
+Mana,Winkler,w17,Pheidole,Pheidole glomericeps,1,-0.82733,-79.18499,480
+Mana,Winkler,w17,Solenopsis,Solenopsis sp2,9,-0.82733,-79.18499,480
+Mana,Winkler,w17,Brachymyrmex,Brachymyrmex EC01,2,-0.82733,-79.18499,480
+Mana,Winkler,w17,Carebara,Carebara urichi,1,-0.82733,-79.18499,480
+Mana,Winkler,w9,Nylanderia,Nylanderia EC13,1,-0.82733,-79.18499,480
+Mana,Winkler,w9,Cyphomyrmex,Cyphomyrmex ACZ3361,1,-0.82733,-79.18499,480
+Mana,Winkler,w9,Wasmannia,Wasmannia auropunctata,2,-0.82733,-79.18499,480
+Mana,Winkler,w9,Pheidole,Pheidole glomericeps,2,-0.82733,-79.18499,480
+Mana,Winkler,w9,Solenopsis,Solenopsis sp1,5,-0.82733,-79.18499,480
+Mana,Winkler,w11,Apterostigma,Apterostigma EC02,8,-0.82733,-79.18499,480
+Mana,Winkler,w11,Nylanderia,Nylanderia EC13,4,-0.82733,-79.18499,480
+Mana,Winkler,w11,Pheidole,Pheidole ADG8858,1,-0.82733,-79.18499,480
+Mana,Winkler,w11,Pheidole,Pheidole glomericeps,3,-0.82733,-79.18499,480
+Mana,Winkler,w8,Cyphomyrmex,Cyphomyrmex ADC7886,6,-0.82733,-79.18499,480
+Mana,Winkler,w8,Gnamptogenys,Gnamptogenys striatula,1,-0.82733,-79.18499,480
+Mana,Winkler,w8,Octostruma,Octostruma betschi,2,-0.82733,-79.18499,480
+Mana,Winkler,w8,Azteca,Azteca EC07,1,-0.82733,-79.18499,480
+Mana,Winkler,w8,Brachymyrmex,Brachymyrmex EC01,1,-0.82733,-79.18499,480
+Mana,Winkler,w8,Wasmannia,Wasmannia auropunctata,1,-0.82733,-79.18499,480
+Mana,Winkler,w8,Pheidole,Pheidole glomericeps,2,-0.82733,-79.18499,480
+Mana,Winkler,w12,Gnamptogenys,Gnamptogenys striatula,1,-0.82733,-79.18499,480
+Mana,Winkler,w12,Pheidole,Pheidole EC79,2,-0.82733,-79.18499,480
+Mana,Winkler,w12,Pheidole,Pheidole glomericeps,1,-0.82733,-79.18499,480
+Mana,Winkler,w12,Carebara,Carebara EC01,1,-0.82733,-79.18499,480
+Mana,Winkler,w4,Azteca,Azteca ADF9952,2,-0.82733,-79.18499,480
+Mana,Winkler,w4,Rogeria,Rogeria EC02,1,-0.82733,-79.18499,480
+Mana,Winkler,w4,Pheidole,Pheidole glomericeps,21,-0.82733,-79.18499,480
+Mana,Winkler,w4,Pheidole,Pheidole glomericeps,5,-0.82733,-79.18499,480
+Mana,Winkler,w4,Solenopsis,Solenopsis sp4,10,-0.82733,-79.18499,480
+Mana,Winkler,w4,Brachymyrmex,Brachymyrmex EC01,2,-0.82733,-79.18499,480
+Mana,Winkler,w4,Wasmannia,Wasmannia auropunctata,38,-0.82733,-79.18499,480
+Mana,Winkler,w4,Octostruma,Octostruma amrishi,3,-0.82733,-79.18499,480
+Mana,Winkler,w4,Lachnomyrmex,Lachnomyrmex EC01,1,-0.82733,-79.18499,480
+Mana,Winkler,w3,Atta,Atta EC01 cephalotes,2,-0.82733,-79.18499,480
+Mana,Winkler,w3,Hypoponera,Hypoponera EC12,1,-0.82733,-79.18499,480
+Mana,Winkler,w3,Strumigenys,Strumigenys EC13,1,-0.82733,-79.18499,480
+Mana,Winkler,w3,Solenopsis,Solenopsis sp4,1,-0.82733,-79.18499,480
+Santo Domingo,Pitfall,p34,Pheidole,Pheidole EC18,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p34,Pheidole,Pheidole glomericeps,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p34,Pheidole,Pheidole ACY2076,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p33,Pachycondyla,Pachycondyla harpax,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p33,Tranopelta,Tranopelta gilva,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p36,Apterostigma,Apterostigma EC02,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p27,Odontomachus,Odontomachus bauri,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p27,Carebara,Carebara urichi,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p27,Azteca,Azteca EC07,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p38,Odontomachus,Odontomachus bauri,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p38,Pachycondyla,Pachycondyla harpax,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p38,Azteca,Azteca ADF9952,3,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p38,Pheidole,Pheidole ADG9130,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p38,Pheidole,Pheidole ACY2076,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p38,Stenamma,Stenamma nanozoi,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p28,Ectatomma,Ectatomma edentatum,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p28,Sericomyrmex,Sericomyrmex EC02,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p28,Cyphomyrmex,Cyphomyrmex ABU9022,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p28,Pheidole,Pheidole ACY2076,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p29,Ectatomma,Ectatomma edentatum,3,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p29,Pachycondyla,Pachycondyla harpax,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p29,Megalomyrmex,Megalomyrmex EC02,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p29,Pheidole,Pheidole astur,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p29,Gnamptogenys,Gnamptogenys striatula,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p29,Wasmannia,Wasmannia auropunctata,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p31,Megalomyrmex,Megalomyrmex EC02,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p31,Pheidole,Pheidole EC04,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p31,Pheidole,Pheidole ACY2076,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p24,Pachycondyla,Pachycondyla harpax,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p24,Ectatomma,Ectatomma ruidum,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p24,Pheidole,Pheidole astur,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p24,Pheidole,Pheidole ACY2076,6,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p24,Sericomyrmex,Sericomyrmex ACZ3424,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p37,Ectatomma,Ectatomma edentatum,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p37,Pheidole,Pheidole ACY2668,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p37,Pheidole,Pheidole ACY2076,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p36,Apterostigma,Apterostigma EC02,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p22,Pachycondyla,Pachycondyla harpax,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p23,Pachycondyla,Pachycondyla harpax,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p23,Pheidole,Pheidole EC18,3,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p23,Pheidole,Pheidole glomericeps,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p23,Azteca,Azteca EC07,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p39,Pachycondyla,Pachycondyla harpax,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p39,Pheidole,Pheidole ACY2076,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p39,Solenopsis,Solenopsis sp4,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p30,Pachycondyla,Pachycondyla crassinoda,3,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p30,Pheidole,Pheidole EC67,3,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p26,Ectatomma,Ectatomma edentatum,4,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p26,Pheidole,Pheidole ACY2668,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p26,Pheidole,Pheidole glomericeps,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p26,Wasmannia,Wasmannia auropunctata,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p25,Odontomachus,Odontomachus bauri,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p25,Pheidole,Pheidole EC67,3,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p25,Pheidole,Pheidole glomericeps,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p33,Pachycondyla,Pachycondyla harpax,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p33,Ectatomma,Ectatomma edentatum,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p33,Apterostigma,Apterostigma auriculatum,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p33,Cyphomyrmex,Cyphomyrmex ABU9022,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p33,Pheidole,Pheidole ACY2668,3,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p33,Pheidole,Pheidole EC67,3,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p29,Pheidole,Pheidole EC04,4,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p29,Pheidole,Pheidole EC06,9,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p29,Pheidole,Pheidole EC67,11,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p29,Wasmannia,Wasmannia auropunctata,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p29,Azteca,Azteca EC07,2,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p23,Ectatomma,Ectatomma edentatum,1,-0.270395595,-79.12255462,600
+Santo Domingo,Pitfall,p40,Pheidole,Pheidole ADG9130,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w47,Anochetus,Anochetus targionii,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w47,Cyphomyrmex,Cyphomyrmex ADG8561,5,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w47,Azteca,Azteca EC07,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w47,Hypoponera,Hypoponera ADG8682,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w47,Pheidole,Pheidole ACY2076,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w47,Solenopsis,Solenopsis sp1,10,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w47,Strumigenys,Strumigenys EC13,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w50,Pheidole,Pheidole glomericeps,240,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w50,Pheidole,Pheidole EC67,5,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w50,Nylanderia,Nylanderia EC13,10,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w50,Labidus,Labidus coecus,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w50,Cyphomyrmex,Cyphomyrmex ADC7886,8,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w50,Anochetus,Anochetus targionii,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w50,Pheidole,Pheidole glomericeps,14,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w50,Pheidole,Pheidole ACY2076,8,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w50,Strumigenys,Strumigenys EC13,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w50,Solenopsis,Solenopsis sp1,25,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w50,Octostruma,Octostruma amrishi,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w50,Solenopsis,Solenopsis black,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w44,Crematogaster,Crematogaster nigropilosa,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w44,Myrmicocrypta,Myrmicocrypta ADG7968,4,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w44,Pheidole,Pheidole glomericeps,16,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w44,Carebara,Carebara urichi,9,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w44,Octostruma,Octostruma amrishi,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w44,Solenopsis,Solenopsis sp5,12,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Leptogenys,Leptogenys EC01,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Anochetus,Anochetus targionii,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Apterostigma,Apterostigma ADG8842,4,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Pheidole,Pheidole EC13,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Pheidole,Pheidole ADG9130,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Pheidole,Pheidole EC04,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Octostruma,Octostruma amrishi,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Azteca,Azteca EC07,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Crematogaster,Crematogaster sotobosque,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Pheidole,Pheidole glomericeps,10,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Pheidole,Pheidole ulothrix,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Pheidole,Pheidole ACY2076,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Rogeria,Rogeria EC02,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Tranopelta,Tranopelta gilva,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Hypoponera,Hypoponera EC07,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w56,Solenopsis,Solenopsis sp1,7,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w57,Ectatomma,Ectatomma edentatum,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w57,Leptogenys,Leptogenys EC01,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w57,Odontomachus,Odontomachus meinerti,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w57,Apterostigma,Apterostigma EC02,16,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w57,Acanthognathus,Acanthognathus teledectus,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w57,Crematogaster,Crematogaster sotobosque,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w57,Octostruma,Octostruma amrishi,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w57,Rogeria,Rogeria EC02,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w57,Carebara,Carebara urichi,4,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w57,Pheidole,Pheidole glomericeps,29,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w57,Pheidole,Pheidole glomericeps,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w57,Pheidole,Pheidole ACY2076,9,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w57,Pheidole,Pheidole ACY2076,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w45,Apterostigma,Apterostigma ADG8842,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w45,Hypoponera,Hypoponera EC12,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w45,Cyphomyrmex,Cyphomyrmex ACZ3361,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w45,Azteca,Azteca EC07,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w45,Octostruma,Octostruma amrishi,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w45,Pheidole,Pheidole glomericeps,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w45,Pheidole,Pheidole ADH2079,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w45,Solenopsis,Solenopsis sp1,16,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w45,Brachymyrmex,Brachymyrmex EC01,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Pachycondyla,Pachycondyla harpax,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Apterostigma,Apterostigma EC02,19,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Cyphomyrmex,Cyphomyrmex EC02,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Thaumatomyrmex,Thaumatomyrmex zeteky,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Rasopone,Rasopone bicculata,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Acanthognathus,Acanthognathus teledectus,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Pheidole,Pheidole astur,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Pheidole,Pheidole EC09,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Pheidole,Pheidole glomericeps,10,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Solenopsis,Solenopsis sp5,4,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Acropyga,Acropyga smithii,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w51,Pachycondyla,Pachycondyla harpax,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w51,Apterostigma,Apterostigma EC02,6,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w51,Lenomyrmex,Lenomyrmex foveolatus,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w51,Octostruma,Octostruma amrishi,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w51,Cyphomyrmex,Cyphomyrmex ACZ3361,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w51,Cryptopone,Cryptopone gilva,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w51,Pheidole,Pheidole EC107,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w51,Pheidole,Pheidole glomericeps,12,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w51,Pheidole,Pheidole ACY2076,7,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w51,Solenopsis,Solenopsis sp5,5,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w46,Pachycondyla,Pachycondyla harpax,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w46,Cyphomyrmex,Cyphomyrmex EC10,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w46,Cryptopone,Cryptopone gilva,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w46,Pheidole,Pheidole EC06,10,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w46,Pheidole,Pheidole ACY2076,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w46,Pheidole,Pheidole glomericeps,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w46,Solenopsis,Solenopsis sp4,15,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w58,Anochetus,Anochetus targionii,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w58,Sericomyrmex,Sericomyrmex ACZ3424,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w58,Hypoponera,Hypoponera EC12,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w58,Crematogaster,Crematogaster nigropilosa,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w58,Pheidole,Pheidole ACY2076,,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w58,Pheidole,Pheidole glomericeps,41,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w58,Carebara,Carebara urichi,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w58,Solenopsis,Solenopsis sp5,14,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w95,Pachycondyla,Pachycondyla harpax,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w95,Odontomachus,Odontomachus meinerti,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w95,Octostruma,Octostruma amrishi,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w95,Nylanderia,Nylanderia EC08,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w95,Cyphomyrmex,Cyphomyrmex ABU9022,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w95,Pheidole,Pheidole ACY2076,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w95,Pheidole,Pheidole glomericeps,,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w95,Pheidole,Pheidole ACY2076,10,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w95,Solenopsis,Solenopsis sp4,27,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w48,Nylanderia,Nylanderia EC13,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w48,Azteca,Azteca EC07,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w48,Hypoponera,Hypoponera AAP3371,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w48,Hypoponera,Hypoponera EC07,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w48,Rogeria,Rogeria EC02,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w48,Strumigenys,Strumigenys EC09,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w48,Pheidole,Pheidole EC01,12,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w48,Pheidole,Pheidole ACY2076,19,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w48,Solenopsis,Solenopsis sp4,12,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w42,Ectatomma,Ectatomma edentatum,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w42,Cyphomyrmex,Cyphomyrmex ACZ3361,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w42,Hylomyrma,Hylomyrma EC02,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w42,Camponotus,Camponotus compositor,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w42,Octostruma,Octostruma amrishi,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w42,Octostruma,Octostruma amrishi,6,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w42,Solenopsis,Solenopsis sp1,15,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w42,Pheidole,Pheidole glomericeps,84,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w42,Pheidole,Pheidole glomericeps,56,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w60,Pachycondyla,Pachycondyla harpax,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w60,Lenomyrmex,Lenomyrmex foveolatus,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w60,Anochetus,Anochetus targionii,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w60,Strumigenys,Strumigenys EC13,7,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w60,Rogeria,Rogeria EC02,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w60,Pheidole,Pheidole EC26,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w60,Pheidole,Pheidole glomericeps,12,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w60,Pheidole,Pheidole ACY2076,6,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w60,Octostruma,Octostruma amrishi,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w60,Carebara,Carebara urichi,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w60,Nylanderia,Nylanderia EC08,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w60,Solenopsis,Solenopsis sp1,8,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Pachycondyla,Pachycondyla harpax,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Anochetus,Anochetus targionii,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Hypoponera,Hypoponera EC12,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Strumigenys,Strumigenys EC05,4,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Octostruma,Octostruma betschi,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Rogeria,Rogeria EC02,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Cyphomyrmex,Cyphomyrmex EC08,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Carebara,Carebara urichi,4,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Pheidole,Pheidole EC17,5,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Pheidole,Pheidole ACY2076,4,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Solenopsis,Solenopsis sp1,7,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w59,Tranopelta,Tranopelta gilva,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w41,Hypoponera,Hypoponera EC12,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w41,Nylanderia,Nylanderia EC13,6,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w41,Rogeria,Rogeria blanda,4,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w41,Pheidole,Pheidole glomericeps,29,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w41,Pheidole,Pheidole ADH2079,16,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w41,Solenopsis,Solenopsis sp1,5,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w52,Basiceros,Basiceros militaris,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w52,Apterostigma,Apterostigma EC02,15,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w52,Pheidole,Pheidole glomericeps,7,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w52,Pheidole,Pheidole ACY2076,6,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w52,Solenopsis,Solenopsis sp5,6,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w49,Nylanderia,Nylanderia EC13,9,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w49,Hypoponera,Hypoponera EC12,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w49,Cyphomyrmex,Cyphomyrmex ABU9022,4,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w49,Strumigenys,Strumigenys EC13,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w49,Rogeria,Rogeria EC02,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w49,Pheidole,Pheidole EC27,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w49,Pheidole,Pheidole ACY2076,6,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w49,Solenopsis,Solenopsis sp1,40,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w49,Brachymyrmex,Brachymyrmex EC01,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w54,Anochetus,Anochetus targionii,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w54,Hypoponera,Hypoponera AAP3371,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w54,Gnamptogenys,Gnamptogenys striatula,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w54,Octostruma,Octostruma betschi,5,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w54,Pheidole,Pheidole EC26,7,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w54,Pheidole,Pheidole ACY2076,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w54,Pheidole,Pheidole ACY2076,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w54,Solenopsis,Solenopsis sp4,16,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w43,Sericomyrmex,Sericomyrmex ACZ3424,4,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w43,Hypoponera,Hypoponera EC12,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w43,Octostruma,Octostruma amrishi,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w43,Nylanderia,Nylanderia EC13,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w43,Ochetomyrmex,Ochetomyrmex sp1.,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w43,Wasmannia,Wasmannia auropunctata,4,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w43,Rogeria,Rogeria EC02,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w43,Hypoponera,Hypoponera EC07,3,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w43,Strumigenys,Strumigenys EC13,2,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w43,Pheidole,Pheidole glomericeps,1,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w43,Pheidole,Pheidole EC09,6,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w43,Solenopsis,Solenopsis sp4,8,-0.270395595,-79.12255462,600
+Santo Domingo,Winkler,w43,Carebara,Carebara urichi,135,-0.270395595,-79.12255462,600
+Colon,Winkler,w79,Myrmicocrypta,Myrmicocrypta EC02,4,0.462799765,-79.15503034,350
+Colon,Winkler,w79,Nylanderia,Nylanderia EC25,12,0.462799765,-79.15503034,350
+Colon,Winkler,w79,Stenamma,Stenamma nanozoi,10,0.462799765,-79.15503034,350
+Colon,Winkler,w79,Strumigenys,Strumigenys sp1 (appretiata),1,0.462799765,-79.15503034,350
+Colon,Winkler,w79,Rogeria,Rogeria blanda,3,0.462799765,-79.15503034,350
+Colon,Winkler,w79,Solenopsis,Solenopsis aff. geminnata,1,0.462799765,-79.15503034,350
+Colon,Winkler,w79,Strumigenys,Strumigenys EC02 spathula,1,0.462799765,-79.15503034,350
+Colon,Winkler,w79,Octostruma,Octostruma amrishi,2,0.462799765,-79.15503034,350
+Colon,Winkler,w79,Prionopelta,Prionopelta amabilis,14,0.462799765,-79.15503034,350
+Colon,Winkler,w79,Wasmannia,Wasmannia auropunctata,31,0.462799765,-79.15503034,350
+Colon,Winkler,w79,Acropyga,Acropyga exsanguis,1,0.462799765,-79.15503034,350
+Colon,Winkler,w79,Pheidole,Pheidole glomericeps,12,0.462799765,-79.15503034,350
+Colon,Winkler,w79,Pheidole,Pheidole glomericeps,3,0.462799765,-79.15503034,350
+Colon,Winkler,w79,Carebara,Carebara urichi,9,0.462799765,-79.15503034,350
+Colon,Winkler,w79,DIscothyrea,Discothyrea EC01,1,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Hylomyrma,Hylomyrma EC02,1,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Lenomyrmex,Lenomyrmex foveolatus,1,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Ectatomma,Ectatomma ruidum,1,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Stenamma,Stenamma nanozoi,2,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Octostruma,Octostruma amrishi,3,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Pheidole,Pheidole EC29,1,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Pheidole,Pheidole ACY2668,4,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Pheidole,Pheidole glomericeps,2,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Pheidole,Pheidole glomericeps,1,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Pheidole,Pheidole glomericeps,5,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Pheidole,Pheidole glomericeps,1,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Wasmannia,Wasmannia auropunctata,1,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Strumigenys,Strumigenys EC09,1,0.462799765,-79.15503034,350
+Colon,Winkler,w81,Stenamma,Stenamma nanozoi,2,0.462799765,-79.15503034,350
+Colon,Winkler,w82,Pachycondyla,Pachycondyla harpax,1,0.462799765,-79.15503034,350
+Colon,Winkler,w82,Gnamptogenys,Gnamptogenys striatula,1,0.462799765,-79.15503034,350
+Colon,Winkler,w82,Pheidole,Pheidole glomericeps,10,0.462799765,-79.15503034,350
+Colon,Winkler,w82,Adelomyrmex,Adelomyrmex EC01,1,0.462799765,-79.15503034,350
+Colon,Winkler,w82,Octostruma,Octostruma amrishi,1,0.462799765,-79.15503034,350
+Colon,Winkler,w82,Strumigenys,Strumigenys EC09,1,0.462799765,-79.15503034,350
+Colon,Winkler,w82,Solenopsis,Solenopsis sp5,4,0.462799765,-79.15503034,350
+Colon,Winkler,w82,Rogeria,Rogeria EC02,1,0.462799765,-79.15503034,350
+Colon,Winkler,w83,Hypoponera,Hypoponera ADG8682,1,0.462799765,-79.15503034,350
+Colon,Winkler,w83,Prionopelta,Prionopelta amabilis,8,0.462799765,-79.15503034,350
+Colon,Winkler,w83,Octostruma,Octostruma amrishi,1,0.462799765,-79.15503034,350
+Colon,Winkler,w83,Stenamma,Stenamma nanozoi,3,0.462799765,-79.15503034,350
+Colon,Winkler,w83,Pheidole,Pheidole EC27,1,0.462799765,-79.15503034,350
+Colon,Winkler,w83,Solenopsis,Solenopsis sp1,4,0.462799765,-79.15503034,350
+Colon,Winkler,w83,Wasmannia,Wasmannia auropunctata,49,0.462799765,-79.15503034,350
+Colon,Winkler,w84,Hypoponera,Hypoponera AAP3371,2,0.462799765,-79.15503034,350
+Colon,Winkler,w84,Lenomyrmex,Lenomyrmex foveolatus,1,0.462799765,-79.15503034,350
+Colon,Winkler,w84,Stenamma,Stenamma nanozoi,4,0.462799765,-79.15503034,350
+Colon,Winkler,w84,Labidus,Labidus coecus,1,0.462799765,-79.15503034,350
+Colon,Winkler,w84,Nylanderia,Nylanderia EC13,1,0.462799765,-79.15503034,350
+Colon,Winkler,w84,Octostruma,Octostruma amrishi,1,0.462799765,-79.15503034,350
+Colon,Winkler,w84,Hypoponera,Hypoponera ADG8682,1,0.462799765,-79.15503034,350
+Colon,Winkler,w84,Prionopelta,Prionopelta amabilis,1,0.462799765,-79.15503034,350
+Colon,Winkler,w84,Pheidole,Pheidole glomericeps,2,0.462799765,-79.15503034,350
+Colon,Winkler,w84,Solenopsis,Solenopsis sp6,5,0.462799765,-79.15503034,350
+Colon,Winkler,w84,Wasmannia,Wasmannia auropunctata,24,0.462799765,-79.15503034,350
+Colon,Winkler,w85,Pseudoponera,Pseudoponera gilberti,1,0.462799765,-79.15503034,350
+Colon,Winkler,w85,Rasopone,Rasopone bicculata,1,0.462799765,-79.15503034,350
+Colon,Winkler,w85,Octostruma,Octostruma betschi,1,0.462799765,-79.15503034,350
+Colon,Winkler,w85,Strumigenys,Strumigenys EC13,1,0.462799765,-79.15503034,350
+Colon,Winkler,w85,Pheidole,Pheidole glomericeps,2,0.462799765,-79.15503034,350
+Colon,Winkler,w85,Pheidole,Pheidole ACY2076,1,0.462799765,-79.15503034,350
+Colon,Winkler,w85,Solenopsis,Solenopsis sp4,7,0.462799765,-79.15503034,350
+Colon,Winkler,w86,Wasmannia,Wasmannia auropunctata,47,0.462799765,-79.15503034,350
+Colon,Winkler,w86,Nylanderia,Nylanderia EC25,1,0.462799765,-79.15503034,350
+Colon,Winkler,w86,Prionopelta,Prionopelta amabilis,1,0.462799765,-79.15503034,350
+Colon,Winkler,w86,Solenopsis,Solenopsis sp4,3,0.462799765,-79.15503034,350
+Colon,Winkler,w87,Megalomyrmex,Megalomyrmex EC02,2,0.462799765,-79.15503034,350
+Colon,Winkler,w87,Cyphomyrmex,Cyphomyrmex ACZ4807,13,0.462799765,-79.15503034,350
+Colon,Winkler,w87,Cyphomyrmex,Cyphomyrmex ABU9022,1,0.462799765,-79.15503034,350
+Colon,Winkler,w87,Stenamma,Stenamma nanozoi,2,0.462799765,-79.15503034,350
+Colon,Winkler,w87,Prionopelta,Prionopelta amabilis,18,0.462799765,-79.15503034,350
+Colon,Winkler,w87,Wasmannia,Wasmannia auropunctata,6,0.462799765,-79.15503034,350
+Colon,Winkler,w87,Solenopsis,Solenopsis sp4,3,0.462799765,-79.15503034,350
+Colon,Winkler,w87,Octostruma,Octostruma amrishi,1,0.462799765,-79.15503034,350
+Colon,Winkler,w88,Pachycondyla,Pachycondyla impressa,1,0.462799765,-79.15503034,350
+Colon,Winkler,w88,Gnamptogenys,Gnamptogenys annulata,1,0.462799765,-79.15503034,350
+Colon,Winkler,w88,Nylanderia,Nylanderia EC13,10,0.462799765,-79.15503034,350
+Colon,Winkler,w88,Stenamma,Stenamma nanozoi,5,0.462799765,-79.15503034,350
+Colon,Winkler,w88,Pheidole,Pheidole EC27,16,0.462799765,-79.15503034,350
+Colon,Winkler,w88,Prionopelta,Prionopelta amabilis,2,0.462799765,-79.15503034,350
+Colon,Winkler,w88,Solenopsis,Solenopsis sp4,3,0.462799765,-79.15503034,350
+Colon,Winkler,w89,Solenopsis,Solenopsis aff. geminnata,58,0.462799765,-79.15503034,350
+Colon,Winkler,w89,Cyphomyrmex,Cyphomyrmex ACZ4807,9,0.462799765,-79.15503034,350
+Colon,Winkler,w89,Hylomyrma,Hylomyrma EC02,1,0.462799765,-79.15503034,350
+Colon,Winkler,w89,Pheidole,Pheidole glomericeps,7,0.462799765,-79.15503034,350
+Colon,Winkler,w89,Solenopsis,Solenopsis sp3,3,0.462799765,-79.15503034,350
+Colon,Winkler,w90,Cyphomyrmex,Cyphomyrmex ACZ4807,2,0.462799765,-79.15503034,350
+Colon,Winkler,w90,Azteca,Azteca EC07,1,0.462799765,-79.15503034,350
+Colon,Winkler,w90,Prionopelta,Prionopelta amabilis,1,0.462799765,-79.15503034,350
+Colon,Winkler,w90,Crematogaster,Crematogaster nigropilosa,1,0.462799765,-79.15503034,350
+Colon,Winkler,w90,Stenamma,Stenamma nanozoi,1,0.462799765,-79.15503034,350
+Colon,Winkler,w91,Odontomachus,Odontomachus bauri,3,0.462799765,-79.15503034,350
+Colon,Winkler,w91,Hypoponera,Hypoponera EC12,1,0.462799765,-79.15503034,350
+Colon,Winkler,w91,Megalomyrmex,Megalomyrmex silvestrii,1,0.462799765,-79.15503034,350
+Colon,Winkler,w91,Acanthognathus,Acanthognathus teledectus,1,0.462799765,-79.15503034,350
+Colon,Winkler,w91,Octostruma,Octostruma amrishi,1,0.462799765,-79.15503034,350
+Colon,Winkler,w91,Pheidole,Pheidole glomericeps,8,0.462799765,-79.15503034,350
+Colon,Winkler,w91,Prionopelta,Prionopelta amabilis,4,0.462799765,-79.15503034,350
+Colon,Winkler,w91,Wasmannia,Wasmannia auropunctata,38,0.462799765,-79.15503034,350
+Colon,Winkler,w92,Pachycondyla,Pachycondyla harpax,1,0.462799765,-79.15503034,350
+Colon,Winkler,w92,Nylanderia,Nylanderia EC13,9,0.462799765,-79.15503034,350
+Colon,Winkler,w92,Gnamptogenys,Gnamptogenys striatula,1,0.462799765,-79.15503034,350
+Colon,Winkler,w92,Cyphomyrmex,Cyphomyrmex ABU9022,1,0.462799765,-79.15503034,350
+Colon,Winkler,w92,Hypoponera,Hypoponera EC05,1,0.462799765,-79.15503034,350
+Colon,Winkler,w92,Stenamma,Stenamma nanozoi,1,0.462799765,-79.15503034,350
+Colon,Winkler,w92,Pheidole,Pheidole EC20,1,0.462799765,-79.15503034,350
+Colon,Winkler,w92,Wasmannia,Wasmannia auropunctata,12,0.462799765,-79.15503034,350
+Colon,Winkler,w92,Solenopsis,Solenopsis sp5,3,0.462799765,-79.15503034,350
+Colon,Winkler,w92,Pheidole,Pheidole glomericeps,16,0.462799765,-79.15503034,350
+Colon,Winkler,w93,Pachycondyla,Pachycondyla harpax,1,0.462799765,-79.15503034,350
+Colon,Winkler,w93,Octostruma,Octostruma amrishi,1,0.462799765,-79.15503034,350
+Colon,Winkler,w93,Nylanderia,Nylanderia EC13,1,0.462799765,-79.15503034,350
+Colon,Winkler,w93,Pheidole,Pheidole glomericeps,4,0.462799765,-79.15503034,350
+Colon,Winkler,w93,Wasmannia,Wasmannia auropunctata,1,0.462799765,-79.15503034,350
+Colon,Winkler,w93,Solenopsis,Solenopsis sp4,3,0.462799765,-79.15503034,350
+Colon,Winkler,w93,Pheidole,Pheidole EC79,1,0.462799765,-79.15503034,350
+Colon,Winkler,w94,Odontomachus,Odontomachus bauri,2,0.462799765,-79.15503034,350
+Colon,Winkler,w94,Wasmannia,Wasmannia auropunctata,45,0.462799765,-79.15503034,350
+Colon,Winkler,w94,Pheidole,Pheidole glomericeps,18,0.462799765,-79.15503034,350
+Colon,Winkler,w94,Carebara,Carebara urichi,3,0.462799765,-79.15503034,350
+Colon,Winkler,w94,Solenopsis,Solenopsis sp4,3,0.462799765,-79.15503034,350
+Colon,Winkler,w94,Brachymyrmex,Brachymyrmex EC01,1,0.462799765,-79.15503034,350
+Colon,Winkler,w94,Strumigenys,Strumigenys EC13,1,0.462799765,-79.15503034,350
+Colon,Winkler,w94,Prionopelta,Prionopelta amabilis,1,0.462799765,-79.15503034,350
+Colon,Winkler,w94,Nylanderia,Nylanderia EC13,4,0.462799765,-79.15503034,350
+Colon,Winkler,w94,Lachnomyrmex,Lachnomyrmex EC01,1,0.462799765,-79.15503034,350
+Colon,Winkler,w94,Octostruma,Octostruma betschi,2,0.462799765,-79.15503034,350
+Colon,Winkler,w93,Hypoponera,Hypoponera EC05,1,0.462799765,-79.15503034,350
+Colon,Winkler,w93,Lenomyrmex,Lenomyrmex foveolatus,1,0.462799765,-79.15503034,350
+Colon,Winkler,w93,Pheidole,Pheidole EC67,1,0.462799765,-79.15503034,350
+Colon,Winkler,w93,Cyphomyrmex,Cyphomyrmex ADC7886,2,0.462799765,-79.15503034,350
+Colon,Winkler,w95,Wasmannia,Wasmannia auropunctata,15,0.462799765,-79.15503034,350
+Colon,Winkler,w95,Pheidole,Pheidole glomericeps,10,0.462799765,-79.15503034,350
+Colon,Winkler,w95,Solenopsis,Solenopsis sp4,3,0.462799765,-79.15503034,350
+Colon,Winkler,w95,Prionopelta,Prionopelta amabilis,1,0.462799765,-79.15503034,350
+Colon,Winkler,w96,Pheidole,Pheidole glomericeps,7,0.462799765,-79.15503034,350
+Colon,Winkler,w96,Pheidole,Pheidole ulothrix,2,0.462799765,-79.15503034,350
+Colon,Winkler,w96,Stenamma,Stenamma nanozoi,2,0.462799765,-79.15503034,350
+Colon,Winkler,w96,Hylomyrma,Hylomyrma ADH2548,1,0.462799765,-79.15503034,350
+Colon,Winkler,w96,Wasmannia,Wasmannia auropunctata,4,0.462799765,-79.15503034,350
+Colon,Winkler,w96,Solenopsis,Solenopsis sp5,5,0.462799765,-79.15503034,350
+Colon,Winkler,w98,Leptogenys,Leptogenys unistimulosa,1,0.462799765,-79.15503034,350
+Colon,Winkler,w98,Pheidole,Pheidole glomericeps,3,0.462799765,-79.15503034,350
+Colon,Winkler,w98,Pheidole,Pheidole ulothrix,1,0.462799765,-79.15503034,350
+Colon,Winkler,w98,Wasmannia,Wasmannia auropunctata,6,0.462799765,-79.15503034,350
+Colon,Winkler,w98,Rogeria,Rogeria EC02,1,0.462799765,-79.15503034,350
+Colon,Winkler,w98,Rogeria,Rogeria blanda,1,0.462799765,-79.15503034,350
+Colon,Winkler,w98,Prionopelta,Prionopelta amabilis,2,0.462799765,-79.15503034,350
+Colon,Winkler,w99,Stenamma,Stenamma nanozoi,3,0.462799765,-79.15503034,350
+Colon,Winkler,w99,Hypoponera,Hypoponera EC05,3,0.462799765,-79.15503034,350
+Colon,Winkler,w99,Pheidole,Pheidole glomericeps,2,0.462799765,-79.15503034,350
+Colon,Winkler,w99,Wasmannia,Wasmannia auropunctata,8,0.462799765,-79.15503034,350
+Colon,Winkler,w100,Wasmannia,Wasmannia auropunctata,4,0.462799765,-79.15503034,350
+Colon,Winkler,w100,Lachnomyrmex,Lachnomyrmex EC01,1,0.462799765,-79.15503034,350
+Colon,Winkler,w100,Odontomachus,Odontomachus meinerti,3,0.462799765,-79.15503034,350
+Colon,Winkler,w100,Hypoponera,Hypoponera EC05,2,0.462799765,-79.15503034,350
+Colon,Winkler,w100,Ectatomma,Ectatomma edentatum,3,0.462799765,-79.15503034,350
+Colon,Winkler,w100,Pheidole,Pheidole glomericeps,10,0.462799765,-79.15503034,350
+Colon,Winkler,w100,Pheidole,Pheidole glomericeps,1,0.462799765,-79.15503034,350
+Colon,Winkler,w100,Solenopsis,Solenopsis aff. geminnata,3,0.462799765,-79.15503034,350
