@@ -1,17 +1,23 @@
 ---
 title: "Poison frog chemical defenses are influenced by environmental availability and dietary selectivity for ants"
-bibliography: references.bib         # your .bib file
-citeproc: true                       # ensure pandoc’s cite processor runs
-reference-location: document         # print refs at the end of the doc
-reference-section-title: "References"  # visible heading in README
-link-citations: true                 # clickable in-text citations
-format:
-  html: default
-  gfm:
-    output-file: README.md
-execute:
-  warning: false
-  message: false
+toc: true
+toc-depth: 4
+toc-location: left
+freeze: true
+format: 
+  html:
+    embed-resources: true
+    code-fold: true
+    code-copy: true
+    code-tools: true
+    highlight-style: tango
+    self-contained: true
+    standalone: true
+    fig-responsive: true
+editor: visual
+bibliography: references.bib
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{=html}
@@ -34,23 +40,6 @@ p {
 </style>
 ```
 
-```{r}
-#| label: table-helper
-#| include: false
-table_md_or_html <- function(x, ...) {
-  # If we are rendering to HTML, use kableExtra styling.
-  if (knitr::is_html_output()) {
-    # Use kableExtra as you like:
-    kableExtra::kbl(x, ...) |>
-      kableExtra::kable_classic(full_width = FALSE, html_font = "Cambria")
-      # You can still chain row_spec(), column_spec(), etc. here.
-  } else {
-    # For Markdown/README: plain kable that renders on GitHub.
-    knitr::kable(x, format = "pipe", ...)
-  }
-}
-
-```
 
 ::: authors-section
 Nora A. Martin†¹, Camilo Rodríguez†¹, Aurora Alvarez-Buylla¹, Katherine Fiocca¹, Colin R. Morrison², Adolfo Chamba-Carrillo³, Ana B. García-Ruilova⁴, Janet Rentería⁵, Elicio E. Tapia⁶, Luis A. Coloma⁶, David A. Donoso\*⁷⁺⁸, Lauren A. O’Connell\*¹<br><br>
@@ -570,10 +559,10 @@ en.co$vectors$arrows %>%
   data.frame() %>%
   mutate(r2 = en.co$vectors$r) %>% 
   mutate("p-value" = en.co$vectors$pvals) %>% 
-  table_md_or_html()
-#  kable(digits = 3,caption = "") %>% 
-#  kable_classic(full_width = F, html_font = "Cambria") %>% 
-#  row_spec(0, bold = T) 
+  #table_md_or_html()
+  kable(digits = 3,caption = "") %>% 
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  row_spec(0, bold = T) 
 
 #PERMANOVA
 permanova.ants<-adonis2((ant_co %>% 
@@ -795,13 +784,13 @@ options(knitr.kable.NA = "-")# to remove "NA's" from the table
 T1 <- pwise.test %>% 
   mutate(across(where(is.numeric), round, 3)) %>% 
   mutate(across(where(is.numeric), ~ ifelse(. < 0.001, "<0.001", as.character(.)))) %>%
-  table_md_or_html()
-#  kable(digits = 2, 
-#      table.attr = 'data-quarto-disable-processing="true"', "html",
-#      caption = "Table S1:P-values of pairwise Wilcoxon test on differences in summed alkaloids between frog populations") %>% 
-#  kable_classic(full_width = F, html_font = "Cambria") %>% 
-#  row_spec(0, italic = T, bold = T) %>% 
-#  column_spec(1, italic = T, bold = T)
+  #table_md_or_html()
+  kable(digits = 2, 
+  table.attr = 'data-quarto-disable-processing="true"', "html",
+  caption = "Table S1:P-values of pairwise Wilcoxon test on differences in summed alkaloids between frog populations") %>% 
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  row_spec(0, italic = T, bold = T) %>% 
+  column_spec(1, italic = T, bold = T)
 
 T1
 
@@ -818,7 +807,7 @@ T1
 #| fig-height: 5
 #| fig-align: center
 
-grid.raster(readPNG('/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Reviews/Fig2_neu.png')) 
+grid.raster(readPNG('Fig2.png')) 
 ```
 
 [Figure 2.png](https://drive.google.com/open?id=1wVHeGUraM4OIw7SmkQ0PHNPpPkhignve&usp=drive_fs){.external target="_blank"}
@@ -847,12 +836,12 @@ T2 <- pair.mod %>%
                    "C. Colón vs. P. Quito", "C. Colón vs. H.infraguttatus",
                    "S. Domingo vs. P. Quito", "S. Domingo vs. H. infraguttatus",
                    "P. Quito vs. H. infraguttatus")) %>% 
-  table_md_or_html()
-#  kable(digits = 3, 
-#      table.attr = 'data-quarto-disable-processing="true"', "html",
-#      caption = "Table S2: Summary of the results of pairwise comparisons of a PERMANOVA in alkaloid composition between frog populations") %>% 
-#  kable_classic(full_width = F, html_font = "Cambria") %>% 
-#  row_spec(0, bold = T) 
+  #table_md_or_html()
+  kable(digits = 3, 
+      table.attr = 'data-quarto-disable-processing="true"', "html",
+      caption = "Table S2: Summary of the results of pairwise comparisons of a PERMANOVA in alkaloid composition between frog populations") %>% 
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  row_spec(0, bold = T) 
 
 T2
 ```
@@ -1092,19 +1081,19 @@ T3 <- t3 %>%
   mutate(p.value = c(rep("<0.001",20), rep(">0.05", 4))) %>% #to read easily p.values
   mutate(Contrasts = rep(c("Ants vs. Beetles", "Ants vs. Larvae", 
                    "Ants vs. Mites", "Ants vs. Other"), 6)) %>% 
-  table_md_or_html()
+  #table_md_or_html()
 
-#  kable(digits = 3, 
-#      table.attr = 'data-quarto-disable-processing="true"', "html",
-#      caption = "Table S3: Summarized results of estimated marginal means between frog species and prey items. P-values were adjusted using Tukey’s method") %>% 
-#  kable_classic(full_width = F, html_font = "Cambria") %>% 
-#  row_spec(0, bold = T) %>% 
-#  pack_rows("Ceiba",1,4) %>% 
-#  pack_rows("C. Colón",5,8) %>%
-#  pack_rows("La Maná",9,12) %>%
-#  pack_rows("P. Quito",13,16) %>% 
-#  pack_rows("S. Domingo",17,20) %>%
-#  pack_rows("H. infraguttatus",21,24)
+  kable(digits = 3, 
+      table.attr = 'data-quarto-disable-processing="true"', "html",
+      caption = "Table S3: Summarized results of estimated marginal means between frog species and prey items. P-values were adjusted using Tukey’s method") %>% 
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  row_spec(0, bold = T) %>% 
+  pack_rows("Ceiba",1,4) %>% 
+  pack_rows("C. Colón",5,8) %>%
+  pack_rows("La Maná",9,12) %>%
+  pack_rows("P. Quito",13,16) %>% 
+  pack_rows("S. Domingo",17,20) %>%
+  pack_rows("H. infraguttatus",21,24)
 
 T3
 ```
@@ -1264,7 +1253,7 @@ ch_inf <- chordDiagram(H.infra, grid.col = colors)
 #| fig-width: 9
 #| fig-height: 9
 
-grid.raster(readPNG('/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Reviews/Fig3_neu.png')) 
+grid.raster(readPNG('Fig3.png')) 
 ```
 
 [Figure 3.png](https://drive.google.com/open?id=14ED_0IzafS-Y691-62tPJ6Qijto7JwnM&usp=drive_fs){.external target="_blank"}
@@ -1295,11 +1284,11 @@ T4 <- diet %>%
   .$ci %>%
   rownames_to_column("correlations") %>%
   filter(str_detect(correlations, "mite|ant")) %>% 
-  table_md_or_html()
-#  kable(digits = 3, 
-#      table.attr = 'data-quarto-disable-processing="true"', "html") %>% 
-#  kable_classic(full_width = F, html_font = "Cambria") %>% 
-#  row_spec(0, bold = T)
+  #table_md_or_html()
+  kable(digits = 3, 
+      table.attr = 'data-quarto-disable-processing="true"', "html") %>% 
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  row_spec(0, bold = T)
 
 T4
 
@@ -1455,7 +1444,7 @@ fig4c <- ant_all %>%
 #| fig-width: 9
 #| fig-height: 7
 
-grid.raster(readPNG('/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Reviews/Fig4_neu.png')) 
+grid.raster(readPNG('Fig4.png')) 
 ```
 
 [Figure 4.png](https://drive.google.com/open?id=16c7Gr7NC2oDNSFNwXgQKZ6Zpk6mkSrXo&usp=drive_fs){.external target="_blank"}
@@ -1475,12 +1464,12 @@ T5 <- pair.per.ants %>%
   mutate(Contrasts = c("La Maná vs. C. colón","La Maná vs. S. Domingo", 
                        "La Maná vs. P. Quito","C. colón vs. S. Domingo",
                        "C. Colón vs. P. Quito","S. Domingo vs. P. Quito")) %>% 
-  table_md_or_html()
-#  kable(digits = 3, 
-#      table.attr = 'data-quarto-disable-processing="true"', "html",
-#      caption = "Table S5: Summary of the results of pairwise comparisons of a PERMANOVA in leaf litter ant composition between study sites") %>% 
-#  kable_classic(full_width = F, html_font = "Cambria") %>% 
-#  row_spec(0, bold = T) 
+  #table_md_or_html()
+  kable(digits = 3, 
+      table.attr = 'data-quarto-disable-processing="true"', "html",
+      caption = "Table S5: Summary of the results of pairwise comparisons of a PERMANOVA in leaf litter ant composition between study sites") %>% 
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  row_spec(0, bold = T) 
 
 T5
 ```
@@ -1541,7 +1530,7 @@ f5b <- ggplot() +
 #| fig-width: 9
 #| fig-height: 7
 
-grid.raster(readPNG('/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Reviews/Fig5_neu.png')) 
+grid.raster(readPNG('Fig5.png')) 
 ```
 
 [Figure 5.png](https://drive.google.com/open?id=11sziDPGX2wcmDQwgszWA2hlAB6Xfy6G4&usp=drive_fs){.external target="_blank"}
@@ -1568,12 +1557,12 @@ T6 <- t6 %>%
                    "frog S. Domingo vs. leaf S. Domingo", "frog La Maná vs. leaf La Maná", 
                    "frog H. infraguttatus vs. leaf H. infraguttatus")) %>% 
   select(Contrasts, estimate, SE, p.value) %>% 
-  table_md_or_html()
-#  kable(digits = 3, 
-#      table.attr = 'data-quarto-disable-processing="true"', "html",
-#      caption = "Table S6: Summary of the results of pairwise comparisons of a Negative Binomial regresion comparing ant abundance between *O. sylvatica* populations. P-values were adjusted using Tukey’s method") %>% 
-#  kable_classic(full_width = F, html_font = "Cambria") %>% 
-#  row_spec(0, bold = T)
+  #table_md_or_html()
+  kable(digits = 3, 
+      table.attr = 'data-quarto-disable-processing="true"', "html",
+      caption = "Table S6: Summary of the results of pairwise comparisons of a Negative Binomial regresion comparing ant abundance between *O. sylvatica* populations. P-values were adjusted using Tukey’s method") %>% 
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  row_spec(0, bold = T)
 
 T6
 
@@ -1656,7 +1645,7 @@ fig6b <- elect.morph %>%
 #| label: fig-6
 #| fig-width: 10
 
-grid.raster(readPNG('/Users/camilorl/Library/CloudStorage/GoogleDrive-camilorl@stanford.edu/Shared drives/LOBSU Manuscripts/O. sylvatica vs. H. infraguttatus diet (Nora)/Submission 2-JAE/Reviews/Fig6_neu.png')) 
+grid.raster(readPNG('Fig6.png')) 
 ```
 
 [Figure 6.png](https://drive.google.com/open?id=1NVyqYOm7dRriJJjuLjcLpJaAfwLackCe&usp=drive_fs){.external target="_blank"}
@@ -1678,15 +1667,15 @@ pwt3 <- pairwise.wilcox.test(elect.morph$mPC3, elect.morph$Cat.Linear, p.adjust.
 
 T7 <- cbind(pwt1$p.value, pwt2$p.value, pwt3$p.value) %>%
   set_colnames(sub("preferred", "selected", colnames(.))) %>% 
-  table_md_or_html() 
-#  kable(digits = 3, 
-#      table.attr = 'data-quarto-disable-processing="true"', "html",
-#      caption = "Table S7: P-values of pairwise Wilcoxon test on differences in principal components between linear selectivity categories") 
-#  kable_classic(full_width = F, html_font = "Cambria") %>% 
-#  row_spec(0, bold = T) %>% 
-#  add_header_above(c("", "PC1 (size & texture)" = 2, 
-#                     "PC2 (Color)" = 2,
-#                     "PC3 (Spines)" = 2))
+  #table_md_or_html() 
+  kable(digits = 3, 
+      table.attr = 'data-quarto-disable-processing="true"', "html",
+      caption = "Table S7: P-values of pairwise Wilcoxon test on differences in principal components between linear selectivity categories") %>% 
+  kable_classic(full_width = F, html_font = "Cambria") %>% 
+  row_spec(0, bold = T) %>% 
+  add_header_above(c("", "PC1 (size & texture)" = 2, 
+                     "PC2 (Color)" = 2,
+                     "PC3 (Spines)" = 2))
 
 T7
 ```
