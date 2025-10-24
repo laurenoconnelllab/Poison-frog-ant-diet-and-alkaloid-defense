@@ -219,7 +219,7 @@ conflicts_prefer(magrittr::set_names)
 
 ```
 
-All data sets used for this analyses can be accessed in: <https://drive.google.com/open?id=1d0iVHDFW4sX9hHQyasMv9oO-aWF1Ff_5&usp=drive_fs>
+All data sets used for this analyses can be accessed in: <https://github.com/laurenoconnelllab/Poison-frog-ant-diet-and-alkaloid-defense>
 
 ```{r}
 #| warning: false
