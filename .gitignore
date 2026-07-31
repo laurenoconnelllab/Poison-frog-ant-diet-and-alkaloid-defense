@@ -18,3 +18,5 @@ _site/
 *.ai
 
 /.quarto/
+
+**/*.quarto_ipynb
