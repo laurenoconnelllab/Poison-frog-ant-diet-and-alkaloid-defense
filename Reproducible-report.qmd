@@ -145,7 +145,6 @@ library(lmtest)
 library(MuMIn)
 library(ggpubr)
 library(nlme)
-library(GGally)
 library(PerformanceAnalytics)
 library(psych)
 library(knitr)
@@ -1133,7 +1132,7 @@ allpop.chord <- alkadiver %>%
   ungroup() %>% 
   group_by(population) %>%
   group_split() %>%
-  set_names(map_chr(., ~ unique(.x$population))) %>%
+  set_names(map_chr(., ~ as.character(unique(.x$population)))) %>%
   map(~ .x %>%
         select(-population) %>%
         column_to_rownames("santos2016_source") %>%
@@ -1145,7 +1144,7 @@ colors <- c("#6AB897", "sienna3", "#3E63A6", rep("black",13))
 
 
 ## Ceiba
-ceiba =allpop.chord$`1`
+ceiba =allpop.chord$ceiba
 
 # Check the sector names (rows and columns of the matrix)
 sec.ceiba <- union(rownames(ceiba), colnames(ceiba))
@@ -1163,7 +1162,7 @@ ceiba <- ceiba[c("Both", "Mites", "Ants"), c("HTX", "DHQ", "Lehm", "3,5-P",
 ch_cei <- chordDiagram(ceiba, grid.col = colors)
 
 ## C. Colón
-C.colon =allpop.chord$`2`
+C.colon =allpop.chord$c_colon
 
 # Check the sector names (rows and columns of the matrix)
 sec.colon <- union(rownames(C.colon), colnames(C.colon))
@@ -1180,7 +1179,7 @@ C.colon <- C.colon[c("Both", "Mites", "Ants"), c("HTX", "DHQ", "Lehm", "3,5-P",
 ch_col <- chordDiagram(C.colon, grid.col = colors)
 
 ## P. Quito
-P.quito =allpop.chord$`3`
+P.quito =allpop.chord$p_quito
 
 # Check the sector names (rows and columns of the matrix)
 sec.quito <- union(rownames(P.quito), colnames(P.quito))
@@ -1195,7 +1194,7 @@ P.quito <- P.quito[c("Both", "Mites", "Ants"), c("HTX", "DHQ", "Lehm", "3,5-P",
 ch_qui <- chordDiagram(P.quito, grid.col = colors)
 
 ## S. Domingo
-S.domingo =allpop.chord$`4`
+S.domingo =allpop.chord$s_domingo
 
 # Check the sector names (rows and columns of the matrix)
 sec.domingo <- union(rownames(S.domingo), colnames(S.domingo))
@@ -1211,7 +1210,7 @@ ch_dom <- chordDiagram(S.domingo, grid.col = colors)
 
 
 ## Maná
-Mana =allpop.chord$`5`
+Mana =allpop.chord$la_mana
 
 # Check the sector names (rows and columns of the matrix)
 sec.mana <- union(rownames(Mana), colnames(Mana))
@@ -1227,7 +1226,7 @@ ch_man <- chordDiagram(Mana, grid.col = colors)
 
 
 ## H. infra
-H.infra =allpop.chord$`6`
+H.infra =allpop.chord$H_infra
 
 # Check the sector names (rows and columns of the matrix)
 sec.infra <- union(rownames(H.infra), colnames(H.infra))

@@ -26,5 +26,6 @@
         "statusBar.debuggingForeground": "#e7e7e7"
     },
     "peacock.color": "#7F541B",
-    "positron.r.useNativePipe": true
+    "positron.r.useNativePipe": true,
+    "positron.r.pipe": "|>"
 }
