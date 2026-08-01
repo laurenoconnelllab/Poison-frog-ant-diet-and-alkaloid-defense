@@ -14,6 +14,9 @@ format:
     self-contained: true
     standalone: true
     fig-responsive: true
+    theme:
+      - default
+      - custom.scss
 editor: visual
 bibliography: references.bib
 editor_options: 
